@@ -49,12 +49,29 @@ strong {font-family: 'poppinsbold'; font-weight: normal;}
 
 // Global
 
-.button {background: #245DFF; border: 1px solid #003BE2; border-bottom: 2px solid #003BE2; box-shadow: 0px 6px 5px 0px #DEE5FA; border-radius: 6px; @include type-label(); color: #ffffff; text-transform: uppercase; display: block; padding: 10px;}
+.button {background: #245DFF; border: 1px solid #003BE2; border-bottom: 2px solid #003BE2; box-shadow: 0px 6px 5px 0px #DEE5FA; border-radius: 6px; @include type-label(); color: #ffffff; text-transform: uppercase; display: block; padding: 10px;
+  &.button-light {background: #FFFFFF; border: 1px solid #FFFFFF; box-shadow: 0px 6px 5px 0px #2B2B5B; color: #245DFF;}
+  img {margin-right: 10px; position: relative; top: -2px;}
+}
 
 select {border: 1px solid #DEE2ED; border-bottom: 2px solid #DEE2ED; box-shadow: 0px 6px 5px 0px #ECF0FA; border-radius: 6px; height: 36px; width: auto; padding: 5px 25px 5px 10px; display: inline-block; @include type-regular(); color: #2B2B5B;
   &:focus {border: 1px solid #00C75B; border-bottom: 2px solid #00C75B; box-shadow: 0px 6px 5px 0px #E1F5E5;}
 }
 
+.accordion {background: transparent;
+  .accordion-title {padding: 10px 0px; @include type-label(); font-size: 15px; color: #245DFF; text-decoration: underline; border: 0px; border-bottom: 2px solid #E2E6FF;}
+  .is-active{
+    .accordion-title {color: #2B2B5B; border: 0px;}
+  }
+  .accordion-content {background: transparent; border: 0px; padding: 0px; border-bottom: 2px solid #E2E6FF; padding-bottom: 10px;
+    p {margin: 0px;}
+  }
+  :last-child:not(.is-active)>.accordion-title {border-bottom: 2px solid #E2E6FF;}
+  :last-child>.accordion-content:last-child {border-bottom: 2px solid #E2E6FF;}
+  .accordion-title::before {content: ""; background: url("../img/arrow_up.svg"); background-repeat: no-repeat; width: 20px; height: 15px; right: 0px;}
+  .is-active>.accordion-title::before {content: ""; background: url("../img/arrow_down.svg"); background-repeat: no-repeat; width: 20px; height: 15px; right: 0px;}
+  .accordion-title:focus, .accordion-title:hover {background: transparent; color: #2B2B5B;}
+}
 // Grid
 
 .grid-padding-x>.cell {
@@ -72,6 +89,24 @@ header.site-header {height: 70px; width: 100%; position: relative; background: #
   .site-nav {float: left; width: 70px; height: 100%; background: #245DFF; border-radius: 0px 0px 8px 8px;}
 }
 
+
+// Footer Styles
+footer.site-footer {background-color: #2B2B5B; background-image: url("../img/location_bg.svg"); background-position: top right; background-repeat: no-repeat;
+  .find-test-location {padding: 60px 0px;
+    p {text-align: center; @include type-label(); font-size: 12px; color: #ffffff; line-height: 16px; margin-bottom: 5px;}
+  }
+  .footer-nav {padding: 50px 0px 40px 0px;
+    ul {list-style: none; margin: 0px;
+      li {text-align: center;
+        a {@include type-label; color: #ffffff; font-size: 15px; text-decoration: underline;}
+      }
+    }
+  }
+  .footer-text {text-align: center;
+    p {@include type-label(); color: #8D8DBF; font-size: 12px; display: block; border-top: 2px solid #4F4F88; line-height: 50px;}
+  }
+  .footer-logo {background: #245DFF; padding: 40px 0px;text-align: center;}
+}
 // Home page styles
 
 #home-intro {height: calc(100vh - 70px); min-height: 550px; max-height: 750px; background: #245DFF; position: relative; z-index: 1;
@@ -104,5 +139,5 @@ header.site-header {height: 70px; width: 100%; position: relative; background: #
 }
 
 #faq {padding: 50px 0px; background: #F5F7FD;
-  
+
 }
