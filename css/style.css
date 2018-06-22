@@ -1,0 +1,261 @@
+@font-face {
+  font-family: 'poppinsbold';
+  src: url("../fonts/poppins-bold-webfont.woff2") format("woff2"), url("../fonts/poppins-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'poppinsregular';
+  src: url("../fonts/poppins-regular-webfont.woff2") format("woff2"), url("../fonts/poppins-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'poppinssemibold';
+  src: url("../fonts/poppins-semibold-webfont.woff2") format("woff2"), url("../fonts/poppins-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.type-title {
+  color: #2B2B5B;
+  font-family: 'poppinsbold';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 43px;
+  margin-bottom: 20px; }
+
+.type-title-small {
+  color: #2B2B5B;
+  font-family: 'poppinsbold';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 43px;
+  margin-bottom: 20px; }
+
+.type-label {
+  color: #2B2B5B;
+  font-family: 'poppinssemibold';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 29px;
+  margin: 0px; }
+
+.type-regular {
+  color: #64729A;
+  font-family: 'poppinsregular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 30px; }
+
+.type-regular-small {
+  color: #2C295B;
+  font-family: 'poppinsregular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 20px;
+  margin: 0px; }
+
+body, p {
+  color: #64729A;
+  font-family: 'poppinsregular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 30px; }
+
+h2 {
+  color: #2B2B5B;
+  font-family: 'poppinsbold';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 43px;
+  margin-bottom: 20px; }
+
+strong {
+  font-family: 'poppinsbold';
+  font-weight: normal; }
+
+.button {
+  background: #245DFF;
+  border: 1px solid #003BE2;
+  border-bottom: 2px solid #003BE2;
+  box-shadow: 0px 6px 5px 0px #DEE5FA;
+  border-radius: 6px;
+  color: #2B2B5B;
+  font-family: 'poppinssemibold';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 29px;
+  margin: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: block;
+  padding: 10px; }
+
+select {
+  border: 1px solid #DEE2ED;
+  border-bottom: 2px solid #DEE2ED;
+  box-shadow: 0px 6px 5px 0px #ECF0FA;
+  border-radius: 6px;
+  height: 36px;
+  width: auto;
+  padding: 5px 25px 5px 10px;
+  display: inline-block;
+  color: #64729A;
+  font-family: 'poppinsregular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: #2B2B5B; }
+  select:focus {
+    border: 1px solid #00C75B;
+    border-bottom: 2px solid #00C75B;
+    box-shadow: 0px 6px 5px 0px #E1F5E5; }
+
+.grid-padding-x > .cell {
+  padding-right: 40px;
+  padding-left: 40px; }
+
+header.site-header {
+  height: 70px;
+  width: 100%;
+  position: relative;
+  background: #245DFF;
+  top: 0px;
+  left: 0px;
+  z-index: 100; }
+  header.site-header .site-logo {
+    float: left;
+    width: calc(100% - 140px);
+    height: 100%;
+    background: #245DFF;
+    border-radius: 0px 0px 8px 8px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: start; }
+  header.site-header .user-nav {
+    float: left;
+    width: 70px;
+    height: 100%;
+    background: #245DFF;
+    border-radius: 0px 0px 8px 8px; }
+  header.site-header .site-nav {
+    float: left;
+    width: 70px;
+    height: 100%;
+    background: #245DFF;
+    border-radius: 0px 0px 8px 8px; }
+
+#home-intro {
+  height: calc(100vh - 70px);
+  min-height: 550px;
+  max-height: 750px;
+  background: #245DFF;
+  position: relative;
+  z-index: 1; }
+  #home-intro:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(top, rgba(125, 185, 232, 0) 0%, #6800ff 100%);
+    background: -webkit-linear-gradient(top, rgba(125, 185, 232, 0) 0%, #6800ff 100%);
+    background: linear-gradient(to bottom, rgba(125, 185, 232, 0) 0%, #6800ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#6800ff',GradientType=0 );
+    z-index: -1; }
+  #home-intro .intro-text {
+    height: calc(100% - 270px);
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #home-intro .intro-text .wrap {
+      max-width: 320px; }
+      #home-intro .intro-text .wrap .type-title-small {
+        color: #ffffff;
+        text-align: center; }
+  #home-intro .illustrations {
+    text-align: center; }
+
+#register-drone {
+  background: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 50px; }
+  #register-drone .wrap {
+    position: relative;
+    top: -50px;
+    padding-top: 50px;
+    background: #ffffff;
+    border-radius: 10px;
+    z-index: 1;
+    margin-bottom: -50px; }
+    #register-drone .wrap:after {
+      content: "";
+      position: absolute;
+      top: 42px;
+      left: -10px;
+      width: 14px;
+      height: 14px;
+      background: url(../img/curve_left.svg);
+      z-index: 1; }
+    #register-drone .wrap:before {
+      content: "";
+      position: absolute;
+      top: 42px;
+      right: -10px;
+      width: 14px;
+      height: 14px;
+      background: url(../img/curve_right.svg);
+      z-index: 1; }
+  #register-drone .grid-padding-x > .cell {
+    padding-right: 30px;
+    padding-left: 30px; }
+
+#help-me-apply {
+  background: #F5F7FD;
+  padding: 50px 0px; }
+  #help-me-apply p {
+    color: #2B2B5B; }
+
+#press-releases {
+  padding: 50px 0px; }
+  #press-releases .article {
+    background: url(../img/article.svg);
+    background-repeat: no-repeat;
+    background-position: top 6px left;
+    padding-left: 62px;
+    margin-bottom: 30px; }
+    #press-releases .article h4 {
+      color: #2B2B5B;
+      font-family: 'poppinssemibold';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 17px;
+      line-height: 29px;
+      margin: 0px;
+      color: #245DFF;
+      text-decoration: underline; }
+    #press-releases .article .date {
+      color: #2C295B;
+      font-family: 'poppinsregular';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 11px;
+      line-height: 20px;
+      margin: 0px; }
+
+#faq {
+  padding: 50px 0px;
+  background: #F5F7FD; }
