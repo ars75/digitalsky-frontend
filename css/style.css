@@ -97,11 +97,17 @@ strong {
   color: #ffffff;
   text-transform: uppercase;
   display: block;
-  padding: 10px; }
+  padding: 12px 10px 8px 10px; }
   .button.button-light {
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
     box-shadow: 0px 6px 5px 0px #2B2B5B;
+    color: #245DFF; }
+  .button.button-light-clean {
+    background: #FFFFFF;
+    border: 1px solid #DEE2ED;
+    border: 2px solid #DEE2ED;
+    box-shadow: 0px 6px 5px 0px #F4F4F4;
     color: #245DFF; }
   .button img {
     margin-right: 10px;
@@ -124,7 +130,7 @@ select {
   font-size: 15px;
   line-height: 30px;
   color: #2B2B5B; }
-  select:focus {
+  select:focus, select.selected {
     border: 1px solid #00C75B;
     border-bottom: 2px solid #00C75B;
     box-shadow: 0px 6px 5px 0px #E1F5E5; }
@@ -201,18 +207,25 @@ header.site-header {
     align-items: center;
     justify-content: center;
     justify-content: start; }
-  header.site-header .user-nav {
+  header.site-header .user-nav, header.site-header .site-nav {
     float: left;
     width: 70px;
     height: 100%;
     background: #245DFF;
-    border-radius: 0px 0px 8px 8px; }
-  header.site-header .site-nav {
-    float: left;
-    width: 70px;
-    height: 100%;
-    background: #245DFF;
-    border-radius: 0px 0px 8px 8px; }
+    border-radius: 0px 0px 8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+    header.site-header .user-nav p, header.site-header .site-nav p {
+      font-family: 'poppinsbold';
+      margin: 0px;
+      text-transform: uppercase;
+      font-weight: normal;
+      line-height: normal;
+      font-size: 13px;
+      color: #C6CFFF;
+      letter-spacing: 0.58px; }
 
 footer.site-footer {
   background-color: #2B2B5B;
@@ -292,7 +305,7 @@ footer.site-footer {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#6800ff',GradientType=0 );
     z-index: -1; }
   #home-intro .intro-text {
-    height: calc(100% - 270px);
+    height: calc(100% - 316px);
     display: flex;
     align-items: center;
     justify-content: center; }
@@ -302,7 +315,11 @@ footer.site-footer {
         color: #ffffff;
         text-align: center; }
   #home-intro .illustrations {
-    text-align: center; }
+    text-align: center;
+    background: url("../img/temp-drone3.png");
+    background-position: 60% center;
+    background-repeat: no-repeat;
+    height: 256px; }
 
 #register-drone {
   background: #ffffff;
@@ -344,6 +361,21 @@ footer.site-footer {
   padding: 50px 0px; }
   #help-me-apply p {
     color: #2B2B5B; }
+  #help-me-apply p.question {
+    margin: 0px; }
+  #help-me-apply p.question.selected {
+    margin-bottom: 30px; }
+  #help-me-apply select {
+    margin-left: 5px;
+    margin-right: 5px; }
+  #help-me-apply .other-parts {
+    display: none; }
+  #help-me-apply .under, #help-me-apply .over, #help-me-apply .pilot, #help-me-apply .operator, #help-me-apply .manufacturer, #help-me-apply .in-india, #help-me-apply .import {
+    display: none; }
+  #help-me-apply .button {
+    display: none; }
+  #help-me-apply .show {
+    display: block; }
 
 #press-releases {
   padding: 50px 0px; }
