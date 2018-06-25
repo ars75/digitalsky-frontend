@@ -55,12 +55,58 @@ $('.acquisition_type').on('change', function() {
     $('#help-me-apply .in-india').show();
     $('#help-me-apply .import').hide();
   }
-  if(licenseType == "import") {
+  if(acquisitionType == "import") {
     $('#help-me-apply .in-india').show();
     $('#help-me-apply .import').hide();
   }
 });
 
+
+// Site menu Toggle
+
+$(".site-nav").click(function(event) {
+  $(this).toggleClass("open");
+  $(".user-nav.dashboard").removeClass("open");
+
+  if($(".user-nav.dashboard").hasClass("open") || $(".site-nav").hasClass("open")) {
+    $(".site-header").addClass("menu-open");
+  } else {
+    $(".site-header").removeClass("menu-open");
+  }
+
+});
+
+$(".user-nav.dashboard").click(function(event) {
+  $(this).toggleClass("open");
+  $(".site-nav").removeClass("open");
+
+  if($(".user-nav.dashboard").hasClass("open") || $(".site-nav").hasClass("open")) {
+    $(".site-header").addClass("menu-open");
+  } else {
+    $(".site-header").removeClass("menu-open");
+  }
+
+});
+
+// Show Apply step
+
+$(".show-apply-step").click(function(event) {
+	 $(".apply-step").addClass("show");
+});
+
+// Sticky navigation after scroll
+
+$(window).scroll(function () {
+  if ($(window).scrollTop() > 550) {
+    $('.site-header').addClass('sticky');
+  }
+
+  if ($(window).scrollTop() < 551) {
+    $('.site-header').removeClass('sticky');
+  }
+});
+
+// Foundation initialisation
 $(document).foundation();
 
 });

@@ -1,4 +1,6 @@
-<?php include("header.php"); ?>
+<?php
+$homepage = true;
+include("header.php"); ?>
 
   <section id="home-intro">
     <div class="intro-text">
@@ -18,7 +20,7 @@
           <div class="large-12 cell">
             <h2>Register a <br>drone today</h2>
             <p>Get a license to become a pilot, operator or manufacturer with us. Before you can apply, you need to be registered. Get started with the link below.</p>
-            <a href="#" class="button"><img src="img/get_started.svg" alt="">Get Started</a>
+            <a href="register.php" class="button"><img src="img/get_started.svg" alt="">Get Started</a>
           </div>
         </div>
       </div>
@@ -63,7 +65,7 @@
             <p class="in-india"><strong>You are purchasing drone in India.</strong> Once you have your license, you can apply for “Acquisition of drone” in your dashboard. After aquisition, you can apply for a unique identification number (UIN) for your drone.</p>
             <p class="import"><strong>You are importing drone in India.</strong> Once you have your license, you can apply for “Acquisition of drone” in your dashboard. After aquisition, you can apply for a unique identification number (UIN) for your drone.</p>
 
-            <a href="#" class="button button-light-clean">Register</a>
+            <a href="register.php" class="button button-light-clean">Register</a>
           </div>
 
         </div>
