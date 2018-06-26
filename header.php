@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DigitalSky</title>
     <link rel="stylesheet" href="css/foundation.min.css">
-    <link rel="stylesheet" href="css/style.css?v=2">
+    <link rel="stylesheet" href="css/style.css?v=3">
   </head>
   <body>
 
@@ -46,7 +46,7 @@
         <li><a href="#">Occurance report</a></li>
         <li><a href="#">Application Status</a></li>
         <li><a href="#">Edit user settings</a></li>
-        <li><a href="#" class="logout">Logout</a></li>
+        <li><a href="index.php" class="logout">Logout</a></li>
       </ul>
     </div>
   </div>
