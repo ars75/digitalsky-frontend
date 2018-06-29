@@ -162,6 +162,15 @@ a {
     margin-right: 10px;
     position: relative;
     top: -2px; }
+  .button.button-accept {
+    background: #00C75B;
+    border-color: #00C75B;
+    box-shadow: none;
+    margin-bottom: 20px; }
+  .button.button-deny {
+    background: #FB5F78;
+    border-color: #FB5F78;
+    box-shadow: none; }
   .button:hover, .button.focus {
     background-color: #245DFF;
     color: #ffffff; }
@@ -379,6 +388,9 @@ label.radio {
     width: 19px;
     height: 14px;
     background-image: url("../img/radio-tick.svg"); }
+
+label.page-heading {
+  padding-top: 50px; }
 
 .special-feild-wrap .special-icon {
   height: 52px;
@@ -820,12 +832,15 @@ footer.site-footer {
 .page-dashboard {
   padding: 0px 0px 0px 0px; }
 
-.form-footer {
+.form-footer, .view-application-footer {
   padding: 50px 0px;
   background: #F5F7FD; }
-  .form-footer a.back {
+  .form-footer a.back, .view-application-footer a.back {
     margin-bottom: 20px;
     display: block; }
+
+.view-application-footer {
+  background: #2B2B5B; }
 
 #application-status {
   padding: 50px 0px; }
@@ -1044,20 +1059,24 @@ footer.site-footer {
         position: relative;
         display: block; }
 
-#all-applications .admin-search-form {
+#all-applications-admin .admin-search-wrap {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+#all-applications-admin .admin-search-form {
   position: relative; }
-  #all-applications .admin-search-form .admin-search-button {
+  #all-applications-admin .admin-search-form .admin-search-button {
     position: absolute;
     top: 15px;
     right: 20px; }
 
-#all-applications .admin-search {
+#all-applications-admin .admin-search {
   margin-bottom: 40px;
   padding-right: 50px; }
 
-#all-applications .applications {
-  margin-bottom: 30px; }
-  #all-applications .applications .application {
+#all-applications-admin .applications {
+  margin-bottom: 50px; }
+  #all-applications-admin .applications .application {
     padding: 10px 10px 10px 20px;
     background: #ffffff;
     border: 1px solid #DEE2ED;
@@ -1065,7 +1084,7 @@ footer.site-footer {
     box-shadow: 0px 6px 5px 0px #F4F4F4;
     margin-bottom: 10px;
     border-radius: 6px; }
-    #all-applications .applications .application .details {
+    #all-applications-admin .applications .application .details {
       width: calc(100% - 50px);
       float: left;
       display: flex;
@@ -1073,12 +1092,13 @@ footer.site-footer {
       justify-content: center;
       justify-content: start;
       min-height: 52px; }
-      #all-applications .applications .application .details h3 {
+      #all-applications-admin .applications .application .details h3 {
         margin: 0px;
         font-size: 17px;
         line-height: 28px;
-        letter-spacing: 0.76px; }
-      #all-applications .applications .application .details p {
+        letter-spacing: 0.76px;
+        text-transform: uppercase; }
+      #all-applications-admin .applications .application .details p {
         margin: 0px;
         color: #2B2B5B;
         font-family: 'poppinssemibold';
@@ -1090,16 +1110,84 @@ footer.site-footer {
         font-size: 11px;
         line-height: 17px;
         color: #64729A; }
-    #all-applications .applications .application .go-to-location {
+    #all-applications-admin .applications .application .go-to-location {
       width: 50px;
       float: left; }
-      #all-applications .applications .application .go-to-location .button img {
+      #all-applications-admin .applications .application .go-to-location .button img {
         margin: 0px; }
-    #all-applications .applications .application:after {
+    #all-applications-admin .applications .application:after {
       content: "";
       clear: both;
       position: relative;
       display: block; }
+
+.admin-header {
+  margin-bottom: 20px; }
+  .admin-header .menu {
+    margin-top: -5px; }
+    .admin-header .menu li {
+      width: 33.33333%; }
+      .admin-header .menu li a {
+        height: 110px;
+        background-color: #E9ECF4;
+        border-right: 1px solid #ffffff;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: center 20px;
+        padding-top: 80px;
+        color: #2B2B5B;
+        font-family: 'poppinsbold';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 17px;
+        line-height: 29px;
+        margin-bottom: 20px;
+        font-size: 11px;
+        line-height: normal;
+        text-transform: uppercase;
+        border-radius: 0px 0px 8px 8px; }
+        .admin-header .menu li a:hover {
+          background-color: #ffffff; }
+        .admin-header .menu li a.active {
+          background-color: #ffffff; }
+      .admin-header .menu li a.pilot {
+        background-image: url("../img/pilot-all-blue.svg"); }
+      .admin-header .menu li a.operator {
+        background-image: url("../img/operator-blue.svg"); }
+      .admin-header .menu li a.manufacturer {
+        background-image: url("../img/manufacturer-blue.svg"); }
+      .admin-header .menu li:last-child a {
+        border-right: 0px; }
+
+.page-navigation .menu {
+  display: flex; }
+  .page-navigation .menu li {
+    flex-grow: 1; }
+    .page-navigation .menu li a {
+      padding: 0px;
+      background: #E9ECF4;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid #ffffff;
+      color: #2B2B5B;
+      font-family: 'poppinsbold';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 17px;
+      line-height: 29px;
+      margin-bottom: 20px;
+      color: #245DFF;
+      font-size: 17px;
+      margin: 0px;
+      line-height: 17px; }
+      .page-navigation .menu li a:hover {
+        background: #ffffff; }
+      .page-navigation .menu li a.active {
+        background: #ffffff; }
+    .page-navigation .menu li:last-child a {
+      border-right: 0px; }
 
 #apply-for-block {
   padding: 50px 0px 30px 0px; }
@@ -1443,7 +1531,16 @@ footer.site-footer {
     .reveal .close-button {
       font-size: 50px;
       right: 20px;
-      top: 20px; } }
+      top: 20px; }
+  .page-navigation .grid-container, .admin-header .grid-container {
+    max-width: 100%;
+    padding: 0px; }
+  .page-navigation .grid-padding-x > .cell, .admin-header .grid-padding-x > .cell {
+    padding-right: 0px;
+    padding-left: 0px; }
+  .page-navigation .grid-container:not(.full) > .grid-padding-x, .admin-header .grid-container:not(.full) > .grid-padding-x {
+    margin-left: 0px;
+    margin-right: 0px; } }
 
 @media screen and (max-width: 400px) {
   .grid-padding-x > .cell {

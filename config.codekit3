@@ -364,11 +364,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/manufacturer-blue.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/manufacturer-blue.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/manufacturer.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/manufacturer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/operator-blue.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/operator-blue.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -429,6 +449,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/password.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/pilot-all-blue.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/pilot-all-blue.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -672,6 +702,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/test-locations.php",
+		"oF": 0
+		},
+	"\/view-application.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/view-application.php",
 		"oF": 0
 		}
 	},

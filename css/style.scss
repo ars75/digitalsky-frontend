@@ -71,6 +71,8 @@ a {@include type-label(); color: $blue-main; font-size: 15px; line-height: 30px;
   }
   &.button-file-upload {background-image: url("../img/file-upload.svg"); background-repeat: no-repeat; background-position: left center; background-size: auto 100%; padding-left: 50px; margin-top: -30px; margin-bottom: 50px;}
   img {margin-right: 10px; position: relative; top: -2px;}
+  &.button-accept {background: #00C75B; border-color: #00C75B; box-shadow: none; margin-bottom: 20px;}
+  &.button-deny {background: #FB5F78; border-color: #FB5F78; box-shadow: none;}
 
   &:hover, &.focus {background-color: $blue-main; color: #ffffff;}
 }
@@ -124,6 +126,8 @@ label.radio { @include type-label-form(); text-transform: uppercase; line-height
   input:checked ~ .checkmark:after {display: block;}
   .checkmark:after {top: 6px; left: 4px; width: 19px; height: 14px;background-image: url("../img/radio-tick.svg");}
 }
+
+label.page-heading {padding-top: 50px;}
 
 .special-feild-wrap {
   .special-icon {height: 52px; width: 50px; border: 1px solid #DEE2ED; border-right: 0px;border-bottom: 2px solid #DEE2ED; border-radius: 6px 0px 0px 6px;  float: left; @include absolute-center(); background: $blue-light-bg;}
@@ -287,9 +291,11 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
 
 .page-dashboard {padding: 0px 0px 0px 0px;}
 
-.form-footer {padding: 50px 0px; background: $blue-light-bg;
+.form-footer, .view-application-footer {padding: 50px 0px; background: $blue-light-bg;
   a.back {margin-bottom: 20px; display: block;}
 }
+
+.view-application-footer {background: $blue-heading();}
 
 #application-status {padding: 50px 0px;
   .status {padding: 20px; border-radius: 6px; margin-bottom: 10px;
@@ -351,15 +357,16 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
 
 }
 
-#all-applications {
+#all-applications-admin {
+  .admin-search-wrap {margin-left: -15px; margin-right: -15px;}
   .admin-search-form {position: relative;
     .admin-search-button {position: absolute;top: 15px; right: 20px;}
   }
   .admin-search {margin-bottom: 40px; padding-right: 50px; }
-  .applications {margin-bottom: 30px;
+  .applications {margin-bottom: 50px;
     .application {padding: 10px 10px 10px 20px; background: #ffffff; border: 1px solid #DEE2ED; border-bottom: 2px solid #DEE2ED; box-shadow: 0px 6px 5px 0px #F4F4F4; margin-bottom: 10px; border-radius: 6px;
       .details {width: calc(100% - 50px); float: left; @include absolute-center(); justify-content: start; min-height: 52px;
-        h3 {margin: 0px; font-size: 17px; line-height: 28px; letter-spacing: 0.76px;}
+        h3 {margin: 0px; font-size: 17px; line-height: 28px; letter-spacing: 0.76px; text-transform: uppercase;}
         p {margin: 0px; @include type-label(); font-size: 11px; line-height: 17px; color: #64729A;}
       }
       .go-to-location {width: 50px; float: left;
@@ -369,6 +376,34 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
     }
   }
 }
+
+.admin-header {margin-bottom: 20px;
+  .menu {margin-top: -5px;
+    li{width: 33.33333%;
+      a {height: 110px; background-color: #E9ECF4; border-right: 1px solid #ffffff; text-align: center; background-repeat: no-repeat; background-position: center 20px; padding-top: 80px; @include type-label-form(); font-size: 11px; line-height: normal; text-transform: uppercase; border-radius: 0px 0px 8px 8px;
+        &:hover {background-color: #ffffff;}
+        &.active {background-color: #ffffff;}
+      }
+      a.pilot {background-image: url("../img/pilot-all-blue.svg");}
+      a.operator {background-image: url("../img/operator-blue.svg");}
+      a.manufacturer {background-image: url("../img/manufacturer-blue.svg");}
+      &:last-child a {border-right: 0px;}
+    }
+  }
+}
+
+.page-navigation{
+  .menu { display: flex;
+    li {flex-grow: 1;
+      a {padding: 0px; background: #E9ECF4; height: 52px; @include absolute-center(); border-right: 1px solid #ffffff; @include type-label-form(); color: $blue-main; font-size: 17px; margin: 0px; line-height: 17px;
+        &:hover {background: #ffffff;}
+        &.active {background: #ffffff;}
+      }
+      &:last-child a {border-right: 0px;}
+    }
+  }
+}
+
 #apply-for-block {padding: 50px 0px 30px 0px;
   .apply-for-wrap {
     .apply-for {padding: 20px; border-radius: 6px; margin-bottom: 20px; min-height: 106px;
@@ -509,6 +544,9 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
   .reveal {top: 5%; left: 5%; width: 90%; height: auto; height: auto; min-height: 50vh; border-radius: 6px; padding: 40px 30px;
     .close-button {font-size: 50px; right: 20px; top: 20px;}
   }
+  .page-navigation .grid-container, .admin-header .grid-container {max-width: 100%; padding: 0px;}
+  .page-navigation .grid-padding-x > .cell, .admin-header .grid-padding-x > .cell  {padding-right: 0px;padding-left: 0px;}
+  .page-navigation .grid-container:not(.full)>.grid-padding-x, .admin-header .grid-container:not(.full)>.grid-padding-x {margin-left: 0px; margin-right: 0px;}
 }
 
 // Smaller mobile screen
