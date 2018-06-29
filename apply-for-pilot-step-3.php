@@ -2,7 +2,7 @@
 $dashboard = "true";
 include("header.php"); ?>
 
-<div id="apply-for-block">
+<div id="apply-for-form">
 
 <form class="" action="apply-for-pilot-step-3.php" method="post">
 

@@ -2,7 +2,7 @@
 $dashboard = "true";
 include("header.php"); ?>
 
-<div id="apply-for-block">
+<div id="apply-for-form">
 
 <form class="" action="apply-for-pilot-step-2.php" method="post">
 
@@ -89,11 +89,16 @@ include("header.php"); ?>
       </div>
 
       <div class="large-12 cell">
-        <label>Profession
-          <span>All professions/occupations you had after the age of 18 years</span>
-          <input type="text" placeholder="Profession">
-        </label>
+          <label>Profession
+            <span>All professions/occupations you had after the age of 18 years</span>
+            <div class="form-profession-wrap">
+              <input type="text" placeholder="Profession">
+            </div>
+            <a href="#" class="button profession-clone-button">Add another profession</a>
+          </label>
       </div>
+
+
 
 
       <div class="large-12 cell">

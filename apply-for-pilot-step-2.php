@@ -2,7 +2,7 @@
 $dashboard = "true";
 include("header.php"); ?>
 
-<div id="apply-for-block">
+<div id="apply-for-form">
 
 <form class="" action="apply-for-pilot-step-3.php" method="post">
 
@@ -31,10 +31,25 @@ include("header.php"); ?>
       </div>
 
       <div class="large-12 cell">
-        <label>Upload your <br>Training Certificate</label>
+        <div class="help-wrap">
+          <div class="help-icon" data-open="help-modal">
+            <img src="img/help.svg" alt="">
 
-        <label for="exampleFileUpload" class="button button-file-upload">Upload File</label>
-        <input type="file" id="exampleFileUpload" class="show-for-sr">
+            <div class="reveal" id="help-modal" data-reveal>
+              <h2>Help</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <button class="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          </div>
+
+          <label>Upload your <br>Training Certificate</label>
+
+          <label for="exampleFileUpload" class="button button-file-upload">Upload File</label>
+          <input type="file" id="exampleFileUpload" class="show-for-sr">
+        </div>
+
       </div>
 
       <div class="large-12 cell" id="drone-category">

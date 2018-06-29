@@ -3,13 +3,17 @@ $homepage = true;
 include("header.php"); ?>
 
   <section id="home-intro">
-    <div class="intro-text">
-      <div class="wrap">
-        <h2 class="type-title-small">We monitor and administer the use of drones and unmanned aircrafts in India</h2>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-6 cell large-order-2 intro-text">
+          <div class="wrap">
+            <h2 class="type-title-small">We monitor and administer the use of drones and unmanned aircrafts in India</h2>
+          </div>
+        </div>
+        <div class="large-6 cell large-order-1  illustrations">
+          <!-- <img src="img/temp-drone2.png" alt=""> -->
+        </div>
       </div>
-    </div>
-    <div class="illustrations">
-      <!-- <img src="img/temp-drone2.png" alt=""> -->
     </div>
   </section>
 
@@ -73,7 +77,15 @@ include("header.php"); ?>
     </div>
   </section>
 
-  <section id="press-releases">
+  <div class="clearfix"></div>
+
+  <div class="home-feature show-for-large">
+
+  </div>
+
+<div class="equalizer" data-equalizer data-equalize-on="large">
+
+  <section id="press-releases" data-equalizer-watch>
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
@@ -100,7 +112,7 @@ include("header.php"); ?>
     </div>
   </section>
 
-  <section id="faq">
+  <section id="faq" data-equalizer-watch>
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
@@ -130,5 +142,11 @@ include("header.php"); ?>
       </div>
     </div>
   </section>
+
+</div>
+
+
+  <div class="clearfix"></div>
+
 
 <?php include("footer.php");

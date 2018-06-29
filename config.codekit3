@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/admin.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/admin.php",
+		"oF": 0
+		},
 	"\/apply-for-pilot-step-2.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -85,6 +92,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/dashboard.php",
+		"oF": 0
+		},
+	"\/drone-profile.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/drone-profile.php",
 		"oF": 0
 		},
 	"\/fonts\/poppins-bold-webfont.woff": {
@@ -290,6 +304,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/help.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/help.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/location-button-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -360,6 +384,46 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/page-end.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/page-end.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/page-next.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/page-next.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/page-previous.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/page-previous.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/page-start.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/page-start.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/password.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -395,6 +459,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/radio-tick.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/search.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/search.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -490,6 +564,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/user.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/view.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/view.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

@@ -8,7 +8,9 @@ include("header.php"); ?>
       <div class="large-12 cell">
         <a href="apply-for.php" class="button">Apply for a license</a>
         <div class="apply-step">
-          <p>Apply for a license before buying a drone or applying UIN.</p>
+          <div class="wrap">
+            <p>Apply for a license before buying a drone or applying UIN.</p>
+          </div>
         </div>
         <a href="#" class="button show-apply-step disabled">Acquisition of drone</a>
         <a href="#" class="button show-apply-step disabled">Apply for UIN</a>
@@ -103,21 +105,20 @@ include("header.php"); ?>
         <div class="large-12 cell">
           <h3>My Drones</h3>
         <div class="drones-wrap">
-          <div class="wrap" style="background-image: url('img/temp/d1.jpg')">
+          <a class="wrap" style="background-image: url('img/temp/d1.jpg')" href="drone-profile.php">
             <p>Parrot Bebop 2 FPV</p>
-          </div>
+          </a>
+          <a class="wrap" style="background-image: url('img/temp/d1.jpg')" href="drone-profile.php">
+            <p>Parrot Bebop 2 FPV</p>
+          </a>
 
-          <div class="wrap" style="background-image: url('img/temp/d1.jpg')">
+          <a class="wrap" style="background-image: url('img/temp/d1.jpg')" href="drone-profile.php">
             <p>Parrot Bebop 2 FPV</p>
-          </div>
+          </a>
+          <a class="wrap" style="background-image: url('img/temp/d1.jpg')" href="drone-profile.php">
+            <p>Parrot Bebop 2 FPV</p>
+          </a>
 
-          <div class="wrap" style="background-image: url('img/temp/d1.jpg')">
-            <p>Parrot Bebop 2 FPV</p>
-          </div>
-
-          <div class="wrap" style="background-image: url('img/temp/d1.jpg')">
-            <p>Parrot Bebop 2 FPV</p>
-          </div>
         </div>
 
         <a href="#" class="button">See all Drones</a>

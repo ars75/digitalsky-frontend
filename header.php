@@ -18,6 +18,7 @@
     </a>
 
 
+
 <?php if($dashboard != "true") { ?>
     <a href="login.php">
     <div class="user-nav">
@@ -40,8 +41,8 @@
 
     <div class="the-user-navigation">
       <ul>
-        <li><a href="#">Apply now</a></li>
-        <li><a href="#">Dashboard</a></li>
+        <li><a href="apply-for.php">Apply now</a></li>
+        <li><a href="dashboard.php">Dashboard</a></li>
         <li><a href="#">My drones</a></li>
         <li><a href="#">Occurance report</a></li>
         <li><a href="#">Application Status</a></li>
@@ -52,7 +53,7 @@
   </div>
 <? } ?>
 
-    <div class="site-nav">
+    <div class="site-nav hide-for-large">
       <div class="wrap">
         <div class="open-wrap">
           <img src="img/hambargar.svg" alt="">
@@ -73,4 +74,14 @@
         </div>
       </div>
     </div>
+
+    <div class="desktop-site-navigation">
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Application Process</a></li>
+        <li><a href="#">Know the requirements</a></li>
+        <li><a href="#">Operating restrictions</a></li>
+      </ul>
+    </div>
+
   </header>

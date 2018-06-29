@@ -106,6 +106,13 @@ $(window).scroll(function () {
   }
 });
 
+// Clone feilds
+
+$('.profession-clone-button').click(function(event) {
+  event.preventDefault();
+  $('.form-profession-wrap').append('<input type="text" placeholder="Profession">');
+});
+
 // Foundation initialisation
 $(document).foundation();
 
