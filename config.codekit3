@@ -616,13 +616,6 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/index_backup.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index_backup.html",
-		"oF": 0
-		},
 	"\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,
@@ -683,12 +676,44 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/know-requirements.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/know-requirements.php",
+		"oF": 0
+		},
 	"\/login.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/login.php",
 		"oF": 0
+		},
+	"\/page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page.php",
+		"oF": 0
+		},
+	"\/readme.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/register.php": {
 		"cB": 0,
