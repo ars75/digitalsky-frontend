@@ -45,3 +45,7 @@ _thanks.php_, _fail.php_
 **Drone Profile**
 ---
 _drone-profile.php_
+
+**Test Locations**
+---
+_test-locations.php_

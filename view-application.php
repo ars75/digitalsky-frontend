@@ -109,6 +109,7 @@ include("header.php"); ?>
   </div>
 </div>
 
+<!-- Want to hide footer for this page -->
 <style media="screen">
   .site-footer {display: none;}
 </style>

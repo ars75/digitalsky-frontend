@@ -10,13 +10,23 @@
   </head>
   <body>
 
+<!--
+Note:
+A class "homepage" has to be added only on homepage, as the header has different style for homepage.
+-->
+
   <header class="site-header <?php if($homepage == "true"){echo "homepage";} ?>">
     <a href="index.php">
       <div class="site-logo">
         <img src="img/logo.svg" alt="">
       </div>
     </a>
-
+    
+<!--
+Note:
+There are two navigations on the page: 1. Main navigation. 2. User navigation
+User icon will only show up when user is logged in.
+-->
 
 
 <?php if($dashboard != "true") { ?>
