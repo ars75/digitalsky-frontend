@@ -1,6 +1,9 @@
 # Demo Link
 [Demo](http://demo.grandworks.co/digitalsky/)
 
+# Sketch Design
+[Download](https://www.dropbox.com/s/qwj2m3c9nlyfth2/DigitalSky_02.sketch?dl=0)
+
 # General
 
 - To use same header and footer on all pages we have included header.php & footer.php in each pages
@@ -38,3 +41,7 @@ _apply-for-pilot.php_, _apply-for-pilot-step-2.php_, _apply-for-pilot-step-3.php
 **Form Success & form fail**
 ---
 _thanks.php_, _fail.php_
+
+**Drone Profile**
+---
+_drone-profile.php_
