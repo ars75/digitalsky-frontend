@@ -1,6 +1,4 @@
-# Notes
-
-## General
+# General
 
 - To use same header and footer on all pages we have included header.php & footer.php in each pages
 - We are using [foundation](https://foundation.zurb.com/sites/docs/) as frontend framework and its included in header and Footer
@@ -8,7 +6,7 @@
 - CSS is written in SASS with path: css/style.scss, compiled to css/style.css
 - Javascript for functionality is written in js/app.js and minified and included with path js/min/app-min.js
 
-## Files
+# Files
 
 **Home Page**
 ---
