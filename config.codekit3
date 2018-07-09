@@ -101,6 +101,13 @@
 		"oAP": "\/drone-profile.php",
 		"oF": 0
 		},
+	"\/fail.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fail.php",
+		"oF": 0
+		},
 	"\/fonts\/poppins-bold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -214,6 +221,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/back-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/back-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/back.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -264,6 +281,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/fail.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/fail.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/file-upload.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -273,6 +300,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/flying-drone.png": {
+		"ft": 32768,
+		"iS": 171831,
+		"oA": 0,
+		"oAP": "\/img\/flying-drone.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/get_started.svg": {
 		"ft": 2097152,
@@ -697,6 +735,13 @@
 		"oAP": "\/page.php",
 		"oF": 0
 		},
+	"\/readme.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/readme.html",
+		"oF": 0
+		},
 	"\/readme.md": {
 		"cB": 0,
 		"cS": 0,
@@ -727,6 +772,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/test-locations.php",
+		"oF": 0
+		},
+	"\/thanks.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/thanks.php",
 		"oF": 0
 		},
 	"\/view-application.php": {

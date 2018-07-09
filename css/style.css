@@ -113,12 +113,13 @@ a {
   box-shadow: 0px 6px 5px 0px #DEE5FA;
   border-radius: 6px;
   color: #2B2B5B;
-  font-family: 'poppinssemibold';
+  font-family: 'poppinsbold';
   font-weight: normal;
   font-style: normal;
   font-size: 17px;
   line-height: 29px;
-  margin: 0px;
+  margin-bottom: 20px;
+  margin-bottom: 0px;
   color: #ffffff;
   text-transform: uppercase;
   display: block;
@@ -167,10 +168,14 @@ a {
     border-color: #00C75B;
     box-shadow: none;
     margin-bottom: 20px; }
+    .button.button-accept:hover {
+      background: #00C75B; }
   .button.button-deny {
     background: #FB5F78;
     border-color: #FB5F78;
     box-shadow: none; }
+    .button.button-deny:hover {
+      background: #FB5F78; }
   .button:hover, .button.focus {
     background-color: #245DFF;
     color: #ffffff; }
@@ -837,7 +842,10 @@ footer.site-footer {
   background: #F5F7FD; }
   .form-footer a.back, .view-application-footer a.back {
     margin-bottom: 20px;
-    display: block; }
+    display: block;
+    color: #ffffff; }
+    .form-footer a.back img, .view-application-footer a.back img {
+      margin-right: 10px; }
 
 .view-application-footer {
   background: #2B2B5B; }
@@ -1518,6 +1526,69 @@ footer.site-footer {
 
 .single-page {
   padding: 50px 0px; }
+
+.thanks-page {
+  padding: 80px 0px;
+  text-align: center;
+  margin-top: -10px;
+  min-height: calc(100vh - 60px);
+  position: relative;
+  z-index: 10; }
+  .thanks-page:before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(top, rgba(125, 185, 232, 0) 0%, #6800ff 100%);
+    background: -webkit-linear-gradient(top, rgba(125, 185, 232, 0) 0%, #6800ff 100%);
+    background: linear-gradient(to bottom, rgba(125, 185, 232, 0) 0%, #6800ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#6800ff',GradientType=0 );
+    z-index: -1; }
+  .thanks-page:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #245DFF;
+    z-index: -2; }
+  .thanks-page .illustrations {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/flying-drone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1; }
+  .thanks-page h2 {
+    color: #ffffff; }
+  .thanks-page p {
+    color: #ffffff; }
+  .thanks-page .button {
+    box-shadow: 0px 6px 5px 0px #341CCB; }
+
+.fail-page {
+  position: relative;
+  z-index: 1; }
+  .fail-page img {
+    margin-bottom: 20px; }
+  .fail-page h2 {
+    color: #D40000; }
+  .fail-page .cell {
+    padding: 50px 0px;
+    text-align: center;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .fail-page .button {
+    margin-bottom: 10px; }
 
 @media screen and (max-width: 39.9375em) {
   .button {

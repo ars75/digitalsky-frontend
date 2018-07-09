@@ -10,7 +10,6 @@ $('.drone_weight').on('change', function() {
   $('#help-me-apply .question').addClass('selected');
   $('#help-me-apply .button').addClass('show');
 
-  // console.log(droneWeight);
   if(droneWeight == "under") {
     $('#help-me-apply .answer .under').show();
 
