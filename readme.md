@@ -50,3 +50,8 @@ _drone-profile.php_
 **Test Locations**
 ---
 _test-locations.php_
+
+## Version history
+
+### 1.0
+- Delivered
