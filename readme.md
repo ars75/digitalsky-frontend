@@ -15,43 +15,34 @@
 
 # Files
 
-**Home Page**
----
+#### Home Page
 _index.php_
 
-**Login - Register Page**
----
+#### Login - Register Page
 _login.php_, _register.php_
 
-**User dashboard**
----
+#### User dashboard
 _dashboard.php_
 
-**Admin dashboard**
----
+#### Admin dashboard
 _admin.php_
 
-**Apply for Pilot or Manufacturer or as operator**
----
+#### Apply for Pilot or Manufacturer or as operator
 _apply-for.php_
 
-**Form Step-1, Step-2, Step-3**
----
+#### Form Step-1, Step-2, Step-3
 _apply-for-pilot.php_, _apply-for-pilot-step-2.php_, _apply-for-pilot-step-3.php_
 
-**Form Success & form fail**
----
+#### Form Success & form fail
 _thanks.php_, _fail.php_
 
-**Drone Profile**
----
+#### Drone Profile
 _drone-profile.php_
 
-**Test Locations**
----
+#### Test Locations
 _test-locations.php_
 
-## Version history
+# Version history
 
-### 1.0
+## 1.0
 - Delivered
