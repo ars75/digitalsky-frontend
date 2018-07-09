@@ -9,8 +9,9 @@
 - Its normal html/css markup, but just to use same header and footer on all pages we have used php, and included header.php & footer.php in each page.
 - We are using [foundation](https://foundation.zurb.com/sites/docs/) as frontend framework and its included in header and Footer
 - We are using foundation's [XY grid](https://foundation.zurb.com/sites/docs/xy-grid.html) for grid framework
-- CSS is written in SASS with path: css/style.scss, compiled to css/style.css
+- CSS is written in SASS with path: css/style.scss, compiled to same directory css/style.css
 - Javascript for functionality is written in js/app.js and minified and included with path js/min/app-min.js
+- Whole frontend is done modular, we just have to follow correct markup and classes
 
 # Files
 
