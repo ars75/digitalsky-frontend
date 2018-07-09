@@ -6,7 +6,7 @@
 
 # General
 
-- To use same header and footer on all pages we have included header.php & footer.php in each pages
+- Its normal html/css markup, but just to use same header and footer on all pages we have used php, and included header.php & footer.php in each page.
 - We are using [foundation](https://foundation.zurb.com/sites/docs/) as frontend framework and its included in header and Footer
 - We are using foundation's [XY grid](https://foundation.zurb.com/sites/docs/xy-grid.html) for grid framework
 - CSS is written in SASS with path: css/style.scss, compiled to css/style.css
