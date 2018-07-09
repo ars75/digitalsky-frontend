@@ -39,7 +39,7 @@ include("header.php"); ?>
                 </div>
               </div>
               <div class="go-to-location">
-                <a href="#" class="button"><img src="img/view.svg" alt=""></a>
+                <a href="view-application.php" class="button"><img src="img/view.svg" alt=""></a>
               </div>
             </div>
 
@@ -51,7 +51,7 @@ include("header.php"); ?>
                 </div>
               </div>
               <div class="go-to-location">
-                <a href="#" class="button"><img src="img/view.svg" alt=""></a>
+                <a href="view-application.php" class="button"><img src="img/view.svg" alt=""></a>
               </div>
             </div>
 
@@ -63,7 +63,7 @@ include("header.php"); ?>
                 </div>
               </div>
               <div class="go-to-location">
-                <a href="#" class="button"><img src="img/view.svg" alt=""></a>
+                <a href="view-application.php" class="button"><img src="img/view.svg" alt=""></a>
               </div>
             </div>
 
@@ -75,7 +75,7 @@ include("header.php"); ?>
                 </div>
               </div>
               <div class="go-to-location">
-                <a href="#" class="button"><img src="img/view.svg" alt=""></a>
+                <a href="view-application.php" class="button"><img src="img/view.svg" alt=""></a>
               </div>
             </div>
 
@@ -87,7 +87,7 @@ include("header.php"); ?>
                 </div>
               </div>
               <div class="go-to-location">
-                <a href="#" class="button"><img src="img/view.svg" alt=""></a>
+                <a href="view-application.php" class="button"><img src="img/view.svg" alt=""></a>
               </div>
             </div>
 
@@ -99,7 +99,7 @@ include("header.php"); ?>
                 </div>
               </div>
               <div class="go-to-location">
-                <a href="#" class="button"><img src="img/view.svg" alt=""></a>
+                <a href="view-application.php" class="button"><img src="img/view.svg" alt=""></a>
               </div>
             </div>
 
