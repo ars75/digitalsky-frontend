@@ -1,5 +1,7 @@
 <?php
 $dashboard = "true";
+$admin = "true";
+
 include("header.php"); ?>
 
 <div id="view-application">
@@ -96,17 +98,27 @@ include("header.php"); ?>
     </div>
   </div>
 
-  <div class="view-application-footer">
+  <div class="view-application-footer admin-footer">
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
-          <a href="apply-for-pilot-step-2.php" class="back"> <img src="img/back-white.svg" alt="">Go back to previous step</a>
           <a class="button button-accept">Accept Application</a>
           <a class="button button-deny">Deny Application</a>
         </div>
       </div>
     </div>
   </div>
+</div>
+
+<div class="admin-go-back">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="large-12 cell">
+        <a href="apply-for-pilot-step-2.php" class="back"> <img src="img/back-white.svg" alt="">Go back to previous step</a>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 
 <!-- Want to hide footer for this page -->

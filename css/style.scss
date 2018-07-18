@@ -300,12 +300,20 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
 .page-dashboard {padding: 0px 0px 0px 0px;}
 
 .form-footer, .view-application-footer {padding: 50px 0px; background: $blue-light-bg;
-  a.back {margin-bottom: 20px; display: block; color: #ffffff;
+  a.back {margin-bottom: 20px; display: block;
     img {margin-right: 10px;}
   }
 }
+.view-application-footer {background: $blue-heading;}
 
-.view-application-footer {background: $blue-heading();}
+.view-application-footer.admin-footer {background: #ffffff;}
+
+.admin-go-back {background: $blue-heading; padding: 50px 0px;
+  a {color: #ffffff;
+    img {margin-right: 10px;}
+  }
+
+}
 
 #application-status {padding: 50px 0px;
   .status {padding: 20px; border-radius: 6px; margin-bottom: 10px;

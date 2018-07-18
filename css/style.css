@@ -854,13 +854,23 @@ footer.site-footer {
   background: #F5F7FD; }
   .form-footer a.back, .view-application-footer a.back {
     margin-bottom: 20px;
-    display: block;
-    color: #ffffff; }
+    display: block; }
     .form-footer a.back img, .view-application-footer a.back img {
       margin-right: 10px; }
 
 .view-application-footer {
   background: #2B2B5B; }
+
+.view-application-footer.admin-footer {
+  background: #ffffff; }
+
+.admin-go-back {
+  background: #2B2B5B;
+  padding: 50px 0px; }
+  .admin-go-back a {
+    color: #ffffff; }
+    .admin-go-back a img {
+      margin-right: 10px; }
 
 #application-status {
   padding: 50px 0px; }
