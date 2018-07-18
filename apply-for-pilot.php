@@ -58,14 +58,14 @@ include("header.php"); ?>
       </div>
 
       <div class="large-12 cell">
-        <label>Permanent address
+        <label>Permanent address *
           <span>Permanent address in full, including nearest police station</span>
           <textarea name="name" rows="5" cols="80" placeholder="Permanent address in full, including nearest police station"></textarea>
         </label>
       </div>
 
       <div class="large-12 cell">
-        <label>Nationality
+        <label>Nationality *
           <select class="select_nationality" name="">
             <option disabled selected value="">Select Nationality</option>
             <option value="in">India</option>
@@ -76,7 +76,7 @@ include("header.php"); ?>
       </div>
 
       <div class="large-12 cell">
-        <label>Date of birth
+        <label>Date of birth *
           <input type="text" placeholder="Date of birth (DD-MM-YY)">
         </label>
       </div>
