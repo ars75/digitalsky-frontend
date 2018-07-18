@@ -52,3 +52,4 @@ _test-locations.php_
 - Mandatory fields *
 - Blog page style on blog.php
 - Admin navigation fix, Menu for Approved, Denied and Pending applications
+- Application approve style fixes
