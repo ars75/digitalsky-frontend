@@ -21,7 +21,7 @@ A class "homepage" has to be added only on homepage, as the header has different
         <img src="img/logo.svg" alt="">
       </div>
     </a>
-    
+
 <!--
 Note:
 There are two navigations on the page: 1. Main navigation. 2. User navigation
@@ -39,6 +39,12 @@ User icon will only show up when user is logged in.
     </div>
     </a>
 <?php } else { ?>
+  <!--
+  Note:
+  If admin dashboard then use this menu then use this:
+  -->
+<?php if($admin != "true") {
+  ?>
   <div class="user-nav dashboard">
     <div class="open-wrap">
       <img src="img/user.svg" alt="">
@@ -61,7 +67,33 @@ User icon will only show up when user is logged in.
       </ul>
     </div>
   </div>
-<? } ?>
+<?php
+} else {
+?>
+<div class="user-nav dashboard">
+  <div class="open-wrap">
+    <img src="img/user.svg" alt="">
+    <p>Admin</p>
+  </div>
+  <div class="close-wrap">
+    <img src="img/hambargar-close.svg" alt="">
+    <p>Close</p>
+  </div>
+
+  <div class="the-user-navigation">
+    <ul>
+      <li><a href="#">Approved applications</a></li>
+      <li><a href="#">Denied applications</a></li>
+      <li><a href="#">Pending applications</a></li>
+      <li><a href="index.php" class="logout">Logout</a></li>
+    </ul>
+  </div>
+</div>
+
+<?php
+  }
+}
+?>
 
     <div class="site-nav hide-for-large">
       <div class="wrap">

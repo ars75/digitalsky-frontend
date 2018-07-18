@@ -51,6 +51,13 @@
 		"oAP": "\/apply-for.php",
 		"oF": 0
 		},
+	"\/blog.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/blog.php",
+		"oF": 0
+		},
 	"\/css\/foundation.css": {
 		"aP": 1,
 		"bl": 0,
@@ -248,6 +255,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/blog-cloud.png": {
+		"ft": 32768,
+		"iS": 48606,
+		"oA": 0,
+		"oAP": "\/img\/blog-cloud.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/curve_left.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -293,6 +311,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/fail.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/fb.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/fb.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -354,6 +382,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/help.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/linkedin.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -424,6 +462,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/manufacturer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/more.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/more.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -633,6 +681,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/img\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/user.svg": {
 		"ft": 2097152,
