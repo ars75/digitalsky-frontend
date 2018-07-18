@@ -46,3 +46,9 @@ _test-locations.php_
 
 ## 1.0
 - Delivered
+
+## 1.1
+- Styles for valid and error fields. add class "valid" & "error" for the same
+- Mandatory fields *
+- Blog page style on blog.php
+- Admin navigation fix, Menu for Approved, Denied and Pending applications
