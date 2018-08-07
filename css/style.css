@@ -1842,7 +1842,8 @@ footer.site-footer {
     float: none;
     width: 100%;
     margin: 0 auto;
-    background: #F5F7FD; }
+    background: #F5F7FD;
+    padding: 0px; }
     #help-me-apply .grid-container {
       max-width: 1080px;
       border-radius: 8px;

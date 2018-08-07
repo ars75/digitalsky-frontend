@@ -669,7 +669,7 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
     }
     .btn-wrap {height: 100%; @include absolute-center();}
   }
-  #help-me-apply {float: none; width: 100%; margin: 0 auto;background: #F5F7FD;
+  #help-me-apply {float: none; width: 100%; margin: 0 auto;background: #F5F7FD; padding: 0px;
     .grid-container {max-width: 1080px; border-radius: 8px; background: $blue-main; padding:50px 20px;}
     h2, p {color: #ffffff;}
     select:focus, select.selected, select, .button.button-light-clean {box-shadow: 0px 6px 5px 0px #2442AF;}
