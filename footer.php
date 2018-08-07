@@ -1,5 +1,5 @@
-  <footer class="site-footer">
-    <div class="find-test-location">
+  <footer class="site-footer" data-equalizer data-equalize-on="medium">
+    <div class="find-test-location" data-equalizer-watch>
       <div class="grid-container">
         <div class="grid-x grid-padding-x">
           <div class="large-12 cell">
@@ -9,7 +9,7 @@
         </div>
       </div>
     </div>
-    <div class="footer-nav">
+    <div class="footer-nav" data-equalizer-watch>
       <div class="grid-container">
         <div class="grid-x grid-padding-x">
           <div class="large-12 cell">
@@ -32,9 +32,10 @@
         </div>
       </div>
     </div>
-    <div class="footer-logo">
+    <div class="footer-logo" data-equalizer-watch>
       <div class="wrap">
         <img src="img/logo.svg" alt="">
+        <p>&copy; 2018 Indian Government. All rights reserved.</p>
       </div>
     </div>
   </footer>

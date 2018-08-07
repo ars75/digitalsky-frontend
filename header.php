@@ -22,6 +22,28 @@ A class "homepage" has to be added only on homepage, as the header has different
       </div>
     </a>
 
+    <div class="site-nav">
+      <div class="wrap">
+        <div class="open-wrap">
+          <img src="img/hambargar.svg" alt="">
+          <p>Menu</p>
+        </div>
+        <div class="close-wrap">
+          <img src="img/hambargar-close.svg" alt="">
+          <p>Close</p>
+        </div>
+
+        <div class="the-site-navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Application Process</a></li>
+            <li><a href="#">Know the requirements</a></li>
+            <li><a href="#">Operating restrictions</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
 <!--
 Note:
 There are two navigations on the page: 1. Main navigation. 2. User navigation
@@ -95,35 +117,6 @@ User icon will only show up when user is logged in.
 }
 ?>
 
-    <div class="site-nav hide-for-large">
-      <div class="wrap">
-        <div class="open-wrap">
-          <img src="img/hambargar.svg" alt="">
-          <p>Menu</p>
-        </div>
-        <div class="close-wrap">
-          <img src="img/hambargar-close.svg" alt="">
-          <p>Close</p>
-        </div>
 
-        <div class="the-site-navigation">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Application Process</a></li>
-            <li><a href="#">Know the requirements</a></li>
-            <li><a href="#">Operating restrictions</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="desktop-site-navigation">
-      <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Application Process</a></li>
-        <li><a href="#">Know the requirements</a></li>
-        <li><a href="#">Operating restrictions</a></li>
-      </ul>
-    </div>
 
   </header>

@@ -5,12 +5,12 @@ include("header.php"); ?>
   <section id="home-intro">
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
-        <div class="large-6 cell large-order-2 intro-text">
+        <div class="large-6 cell large-order-1 intro-text">
           <div class="wrap">
             <h2 class="type-title-small">We monitor and administer the use of drones and unmanned aircrafts in India</h2>
           </div>
         </div>
-        <div class="large-6 cell large-order-1  illustrations">
+        <div class="large-6 cell large-order-2  illustrations">
           <!-- <img src="img/temp-drone2.png" alt=""> -->
         </div>
       </div>
@@ -21,10 +21,14 @@ include("header.php"); ?>
     <div class="wrap">
       <div class="grid-container">
         <div class="grid-x grid-padding-x">
-          <div class="large-12 cell">
+          <div class="large-8 cell">
             <h2>Register a <br>drone today</h2>
             <p>Get a license to become a pilot, operator or manufacturer with us. Before you can apply, you need to be registered. Get started with the link below.</p>
-            <a href="register.php" class="button"><img src="img/get_started.svg" alt="">Get Started</a>
+          </div>
+          <div class="large-3 large-offset-1 cell">
+            <div class="btn-wrap">
+              <a href="register.php" class="button"><img src="img/get_started.svg" alt="">Get Started</a>
+            </div>
           </div>
         </div>
       </div>
@@ -34,8 +38,10 @@ include("header.php"); ?>
   <section id="help-me-apply">
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
+        <div class="large-5 cell">
           <h2>Help me apply</h2>
+        </div>
+        <div class="large-7 cell">
           <p class="question">My drone is
             <select class="drone_weight" name="">
               <option disabled selected value="">Select</option>
@@ -79,18 +85,14 @@ include("header.php"); ?>
 
   <div class="clearfix"></div>
 
-  <div class="home-feature show-for-large">
-
-  </div>
-
-<div class="equalizer" data-equalizer data-equalize-on="large">
-
-  <section id="press-releases" data-equalizer-watch>
+  <section id="press-releases">
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
           <h2>Press Releases</h2>
+        </div>
 
+        <div class="large-6 cell">
           <div class="article">
             <a href="#"><h4>New drone policy launched in India</h4></a>
             <div class="date">10 January 2018</div>
@@ -108,11 +110,30 @@ include("header.php"); ?>
 
           <a href="#" class="button">Read More</a>
         </div>
+
+        <div class="large-6 cell">
+          <div class="article">
+            <a href="#"><h4>New drone policy launched in India</h4></a>
+            <div class="date">10 January 2018</div>
+          </div>
+
+          <div class="article">
+            <a href="#"><h4>New drone policy launched in India</h4></a>
+            <div class="date">10 January 2018</div>
+          </div>
+
+          <div class="article">
+            <a href="#"><h4>New drone policy launched in India</h4></a>
+            <div class="date">10 January 2018</div>
+          </div>
+
+        </div>
+
       </div>
     </div>
   </section>
 
-  <section id="faq" data-equalizer-watch>
+  <section id="faq">
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
@@ -142,9 +163,6 @@ include("header.php"); ?>
       </div>
     </div>
   </section>
-
-</div>
-
 
   <div class="clearfix"></div>
 
