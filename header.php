@@ -16,6 +16,8 @@ A class "homepage" has to be added only on homepage, as the header has different
 -->
 
   <header class="site-header <?php if($homepage == "true"){echo "homepage";} ?>">
+    <div class="grid-container">
+      <div class="grid-wrap">
     <a href="index.php">
       <div class="site-logo">
         <img src="img/logo.svg" alt="">
@@ -116,7 +118,6 @@ User icon will only show up when user is logged in.
   }
 }
 ?>
-
-
-
+    </div>
+  </div>
   </header>
