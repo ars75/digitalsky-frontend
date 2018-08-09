@@ -111,7 +111,7 @@ include("header.php"); ?>
           <a href="#" class="button">Read More</a>
         </div>
 
-        <div class="large-6 cell show-for-large-only">
+        <div class="large-6 cell show-for-large">
           <div class="article">
             <a href="#"><h4>New drone policy launched in India</h4></a>
             <div class="date">10 January 2018</div>

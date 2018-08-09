@@ -5,7 +5,7 @@ include("header.php"); ?>
 <div id="apply-for-block">
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
-      <div class="large-12 cell">
+      <div class="large-6 large-offset-3 cell">
         <h2>Apply now</h2>
         <p>What are you applying for?</p>
 

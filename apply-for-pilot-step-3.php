@@ -6,42 +6,40 @@ include("header.php"); ?>
 
 <form class="" action="apply-for-pilot-step-3.php" method="post">
 
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x">
-      <div class="large-12 cell">
-        <h2>Application <br>for Pilot</h2>
+  <div class="apply-for-form-header">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-6 cell">
+          <h2>Application <br>for Pilot</h2>
+        </div>
+        <div class="large-6 cell">
 
-        <div class="form-steps">
-          <ul>
-            <li class="done step-1">
-              <p>Step 1</p>
-              <div class="circle"></div>
-            </li>
-            <li class="done step-2">
-              <p>Step 2</p>
-              <div class="circle"></div>
-            </li>
-            <li class="now step-3">
-              <p>Step 3</p>
-              <div class="circle"></div>
-            </li>
-          </ul>
+          <div class="form-steps">
+            <ul>
+              <li class="done step-1">
+                <p>Step 1</p>
+                <div class="circle"></div>
+              </li>
+              <li class="done step-2">
+                <p>Step 2</p>
+                <div class="circle"></div>
+              </li>
+              <li class="now step-3">
+                <p>Step 3</p>
+                <div class="circle"></div>
+              </li>
+            </ul>
+          </div>
+
         </div>
 
       </div>
-
-      <div class="large-12 cell">
-        <label>Review your application</label>
-      </div>
-
-
-
     </div>
   </div>
 
 
 
-  <div id="application-preview">
+  <div id="application-preview" class="page-form">
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
 
@@ -141,7 +139,7 @@ furnished in this proforma is correct and complete to the best of my knowledge a
     </div>
   </div>
 
-  <div class="form-footer">
+  <div class="form-footer final-step">
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">

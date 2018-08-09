@@ -37,9 +37,9 @@ A class "homepage" has to be added only on homepage, as the header has different
 
         <div class="the-site-navigation">
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="#">Application Process</a></li>
-            <li><a href="#">Know the requirements</a></li>
+            <li><a href="know-requirements.php">Know the requirements</a></li>
             <li><a href="#">Operating restrictions</a></li>
           </ul>
         </div>
