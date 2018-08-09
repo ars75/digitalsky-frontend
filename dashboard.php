@@ -5,17 +5,22 @@ include("header.php"); ?>
 <div class="page-header dashboard-header">
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
-      <div class="large-12 cell">
-        <a href="apply-for.php" class="button">Apply for a license</a>
-        <div class="apply-step">
-          <div class="wrap">
-            <p>Apply for a license before buying a drone or applying UIN.</p>
+      <div class="large-6 cell">
+        <div class="buttons-wrap">
+          <a href="apply-for.php" class="button">Apply for a license</a>
+          <div class="apply-step">
+            <div class="wrap">
+              <p>Apply for a license before buying a drone or applying UIN.</p>
+            </div>
           </div>
+          <a href="#" class="button show-apply-step disabled">Acquisition of drone</a>
+          <a href="#" class="button show-apply-step disabled">Apply for UIN</a>
         </div>
-        <a href="#" class="button show-apply-step disabled">Acquisition of drone</a>
-        <a href="#" class="button show-apply-step disabled">Apply for UIN</a>
-
-
+      </div>
+      <div class="large-6 cell show-for-large">
+        <div class="dashboard-tite-wrap">
+          <h2>Dashboard</h2>
+        </div>
       </div>
     </div>
   </div>
@@ -38,7 +43,7 @@ include("header.php"); ?>
   <section id="application-status">
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
+        <div class="large-6 large-offset-3 cell">
 
           <h3>Application Status</h3>
 
@@ -98,11 +103,10 @@ include("header.php"); ?>
       </div>
     </div>
   </section>
-
   <section id="my-drones">
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
+        <div class="large-6 large-offset-3 cell">
           <h3>My Drones</h3>
         <div class="drones-wrap">
           <a class="wrap" style="background-image: url('img/temp/d1.jpg')" href="drone-profile.php">
@@ -130,7 +134,7 @@ include("header.php"); ?>
   <section id="occurence-report">
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
+        <div class="large-6 large-offset-3 cell">
           <h3>Occurence Report</h3>
           <p>When an issue occurs during a drone flight, please report below.</p>
           <a href="#" class="button button-light-red">Report now</a>

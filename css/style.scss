@@ -634,9 +634,12 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
 
 // Large screen and up
 @media screen and (min-width: 64em) {
+  a {
+    &:hover, &:focus {color: #003BE2;}
+  }
 
   .button {display: inline-block; padding: 12px 30px 8px 30px;
-    &:hover {background: #003BE2;}
+    &:hover, &:focus {background-color: #003BE2;}
   }
 
 
@@ -649,8 +652,10 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
   }
 
   header.site-header.sticky, header.site-header.open {background: $blue-main;}
+  header.site-header .user-nav.dashboard.open, header.site-header .site-nav.open {position: relative;}
+  header.site-header.menu-open {background: #005fff;}
 
-  header.site-header .user-nav.dashboard.open .the-user-navigation {max-width: 400px; left: auto; right: 0px;border-radius: 0px 0px 0px 6px; overflow: hidden;}
+  header.site-header .user-nav.dashboard.open .the-user-navigation, header.site-header .site-nav.open .the-site-navigation {max-width: 400px; left: auto; right: 0px;border-radius: 0px 0px 6px 6px; overflow: hidden; width: 400px; position: absolute;}
   header.site-header .user-nav.dashboard .the-user-navigation ul li a {font-size: 15px; line-height: 24px;    padding: 15px 30px;}
 
   .grid-container {max-width: 1160px;}
@@ -706,12 +711,58 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
     p {font-size: 12px; color: #C6CFFF; margin: 0px; display: block; text-align: center; font-family: 'poppinssemibold'; font-weight: normal;}
   }
 
-  .page-form .grid-container {max-width: 900px;}
-  label {margin-bottom: 20px; line-height: 72px;
-    [type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea, .special-feild-wrap
-    { width: 70%; float: right; max-width: 600px;}
+  .page-form, .single-page, #drone-profile, .test-loaction-content, .test-loaction-header, #view-application {
+    .grid-container {max-width: 900px;}
+  }
+  label {
+    // margin-bottom: 20px; line-height: 72px;
+    [type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea, .special-feild-wrap, select
+    { width: 70%; float: right; max-width: 600px; margin-top: 0px; margin-bottom: 20px;}
+    span {display: none;}
+    &.checkbox span, &.radio span {display: block;}
   }
 
-  .dashboard-header {background: #0D45E4;}
+  label input + input[type=email], label input + input[type=number], label input + input[type=password], label input + input[type=text] {margin-top: 0px;}
 
+  .special-feild-wrap .special-icon {margin-top: 0px;}
+
+  .dashboard-header {background: #0D45E4; padding: 50px 0px 40px 0px;}
+  .dashboard-header .buttons-wrap {padding: 0px 50px;}
+  .dashboard-header .button {display: block; box-shadow: 0px 6px 5px 0px #0233BF; margin-bottom: 10px; background: #ffffff; color: #245DFF;}
+  .dashboard-header {
+    .button.disabled, .button.disabled:focus, .button.disabled:hover, .button[disabled], .button[disabled]:focus, .button[disabled]:hover {
+      background: #517DF9; box-shadow: 0px 6px 5px 0px #003DEB; border: 0px; color: #92AEFC;
+      &:hover {box-shadow: none;}
+    }
+    .apply-step {margin-top: 20px; margin-bottom: 20px;
+      p {color: #ffffff;}
+    }
+    .dashboard-tite-wrap {padding: 0px 50px;
+      h2 {color: #ffffff;}
+    }
+  }
+
+  #apply-for-form {padding: 0px;
+    h2 br {display: none;}
+    .apply-for-form-header {background: #F5F7FD; padding: 50px 0px 30px 0px; margin-bottom: 100px;}
+    .form-steps {margin-bottom: 0px;}
+    .page-form {padding: 0px 0px 50px 0px;}
+    .form-steps ul li div.circle {background-color: #F5F7FD;}
+    .button.profession-clone-button {float: right; font-size: 14px; padding: 6px 30px 4px 30px;}
+  }
+
+  .form-footer, .view-application-footer {padding: 0px 0px 100px 0px; text-align: center; background: transparent;}
+  .button.button-file-upload {padding-left: 80px;}
+
+  #application-preview {background: #ffffff;}
+  #declaration, .form-footer.final-step {background: #F5F7FD;}
+
+  .go-to-location .button {padding: 12px 10px 8px 10px; display: block;}
+
+  .test-loaction-header {padding: 50px 0px 50px;}
+
+  .view-application-footer.admin-footer {background:#F5F7FD; padding: 50px 0px;
+    .button {display: block; max-width: 400px; margin: 0 auto; margin-bottom: 20px;}
+  }
+  #view-application #application-preview {background: #F5F7FD;}
 }

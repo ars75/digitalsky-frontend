@@ -6,31 +6,41 @@ include("header.php"); ?>
 
 <form class="" action="apply-for-pilot-step-3.php" method="post">
 
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x">
-      <div class="large-12 cell">
-        <h2>Application <br>for Pilot</h2>
+  <div class="apply-for-form-header">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-6 cell">
+          <h2>Application <br>for Pilot</h2>
+        </div>
+        <div class="large-6 cell">
 
-        <div class="form-steps">
-          <ul>
-            <li class="done step-1">
-              <p>Step 1</p>
-              <div class="circle"></div>
-            </li>
-            <li class="now step-2">
-              <p>Step 2</p>
-              <div class="circle"></div>
-            </li>
-            <li class="todo step-3">
-              <p>Step 3</p>
-              <div class="circle"></div>
-            </li>
-          </ul>
+          <div class="form-steps">
+            <ul>
+              <li class="done step-1">
+                <p>Step 1</p>
+                <div class="circle"></div>
+              </li>
+              <li class="now step-2">
+                <p>Step 2</p>
+                <div class="circle"></div>
+              </li>
+              <li class="todo step-3">
+                <p>Step 3</p>
+                <div class="circle"></div>
+              </li>
+            </ul>
+          </div>
+
         </div>
 
       </div>
+    </div>
+  </div>
 
-      <div class="large-12 cell">
+  <div class="page-form">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+      <div class="large-8 large-offset-2 cell">
         <div class="help-wrap">
           <div class="help-icon" data-open="help-modal">
             <img src="img/help.svg" alt="">
@@ -52,7 +62,7 @@ include("header.php"); ?>
 
       </div>
 
-      <div class="large-12 cell" id="drone-category">
+      <div class="large-8 large-offset-2 cell" id="drone-category">
         <label class="main">Drone Category</label>
 
         <div class="category-wrap">
@@ -98,8 +108,7 @@ include("header.php"); ?>
       </div>
     </div>
 
-
-
+  </div>
   </div>
 
   <div class="form-footer">

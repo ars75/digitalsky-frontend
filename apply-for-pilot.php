@@ -6,10 +6,13 @@ include("header.php"); ?>
 
 <form class="" action="apply-for-pilot-step-2.php" method="post">
 
+<div class="apply-for-form-header">
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
-      <div class="large-12 cell">
+      <div class="large-6 cell">
         <h2>Application <br>for Pilot</h2>
+      </div>
+      <div class="large-6 cell">
 
         <div class="form-steps">
           <ul>
@@ -30,6 +33,13 @@ include("header.php"); ?>
 
       </div>
 
+    </div>
+  </div>
+</div>
+
+<div class="page-form">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
       <div class="large-12 cell">
         <label>Name of applicant in full
           <input type="text" placeholder="Name & Aliases (if any)">
@@ -95,6 +105,7 @@ include("header.php"); ?>
               <input type="text" placeholder="Profession">
             </div>
             <a href="#" class="button profession-clone-button">Add another profession</a>
+            <div class="clearfix"></div>
           </label>
       </div>
 
@@ -115,12 +126,11 @@ include("header.php"); ?>
         </label>
       </div>
 
+
+
     </div>
-
-
-
-
   </div>
+</div>
 
   <div class="form-footer">
     <div class="grid-container">
