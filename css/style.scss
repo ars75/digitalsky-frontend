@@ -138,9 +138,9 @@ label.page-heading {padding-top: 50px;}
 .notice {}
 
 .special-feild-wrap {
-  .special-icon {height: 52px; width: 50px; border: 1px solid #DEE2ED; border-right: 0px;border-bottom: 2px solid #DEE2ED; border-radius: 6px 0px 0px 6px;  float: left; @include absolute-center(); background: $blue-light-bg;}
+  .special-icon {height: 52px; width: 50px; border: 1px solid #DEE2ED; border-right: 1px solid #DEE2ED;border-bottom: 2px solid #DEE2ED; border-radius: 6px 0px 0px 6px;  float: left; @include absolute-center(); background: $blue-light-bg;}
   [type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea {
-    width: calc(100% - 50px); float: left; border-radius: 0px 6px 6px 0px;
+    width: calc(100% - 50px); float: left; border-radius: 0px 6px 6px 0px; border-left: 0px;
   }
   &:after {content: ""; clear: both; position: relative; display: block;}
 }
@@ -170,6 +170,8 @@ label.page-heading {padding-top: 50px;}
 // Header styles
 
 header.site-header {height: 70px; width: 100%; position: relative; top: 0px; left: 0px; z-index: 100;
+  .grid-container { padding: 0px 10px;}
+  .grid-wrap {height: 70px;}
   &.homepage {background: $blue-main;}
   .site-logo {float: left; width: calc(100% - 140px); height: 100%; background: $blue-main; border-radius: 0px 0px 8px 8px; padding-left: 30px; @include absolute-center(); justify-content: start;
   }
@@ -603,6 +605,7 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
 // RESPONSIVE
 
 // Mobile
+
 @media screen and (max-width: 39.9375em) {
   .button {width: 100%;}
 
@@ -612,6 +615,11 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
   .page-navigation .grid-container, .admin-header .grid-container {max-width: 100%; padding: 0px;}
   .page-navigation .grid-padding-x > .cell, .admin-header .grid-padding-x > .cell  {padding-right: 0px;padding-left: 0px;}
   .page-navigation .grid-container:not(.full)>.grid-padding-x, .admin-header .grid-container:not(.full)>.grid-padding-x {margin-left: 0px; margin-right: 0px;}
+
+  header.site-header {
+    .cell {padding: 0px;}
+    .grid-container {padding: 0px;}
+  }
 }
 
 // Smaller mobile screen
@@ -627,7 +635,7 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
 // Large screen and up
 @media screen and (min-width: 64em) {
 
-  .button {display: inline-block;
+  .button {display: inline-block; padding: 12px 30px 8px 30px;
     &:hover {background: #003BE2;}
   }
 
@@ -667,7 +675,9 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
       p {margin-bottom: 0px;}
       &:after, &:before {display: none;}
     }
-    .btn-wrap {height: 100%; @include absolute-center();}
+    .btn-wrap {height: 100%; @include absolute-center();
+      .button {padding: 12px 10px 8px 10px;}
+    }
   }
   #help-me-apply {float: none; width: 100%; margin: 0 auto;background: #F5F7FD; padding: 0px;
     .grid-container {max-width: 1080px; border-radius: 8px; background: $blue-main; padding:50px 20px;}
@@ -695,5 +705,13 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
     img {width: 250px; margin-bottom: 10px;}
     p {font-size: 12px; color: #C6CFFF; margin: 0px; display: block; text-align: center; font-family: 'poppinssemibold'; font-weight: normal;}
   }
+
+  .page-form .grid-container {max-width: 900px;}
+  label {margin-bottom: 20px; line-height: 72px;
+    [type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea, .special-feild-wrap
+    { width: 70%; float: right; max-width: 600px;}
+  }
+
+  .dashboard-header {background: #0D45E4;}
 
 }
