@@ -169,7 +169,7 @@ label.page-heading {padding-top: 50px;}
 
 // Header styles
 
-header.site-header {height: 70px; width: 100%; position: relative; top: 0px; left: 0px; z-index: 100;
+header.site-header {height: 70px; width: 100%; position: relative; top: 0px; left: 0px; z-index: 100; margin-bottom: -1px;
   .grid-container { padding: 0px 10px;}
   .grid-wrap {height: 70px;}
   &.homepage {background: $blue-main;}
@@ -242,15 +242,46 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
 }
 // Home page styles
 
-#home-intro {height: calc(100vh - 70px); min-height: 550px; max-height: 750px; background: $blue-main; position: relative; z-index: 1;
+#home-intro {height: auto;
+  // min-height: 550px; max-height: 750px;
+  background: $blue-main; position: relative; z-index: 1; padding-bottom: 50px;
+  .grid-container, .grid-x {height: 100%;}
   &:after {content: ""; position: absolute; bottom: 0px; left: 0px; width: 100%; height: 100%; background: -moz-linear-gradient(top, rgba(125,185,232,0) 0%, rgba(104,0,255,1) 100%); background: -webkit-linear-gradient(top, rgba(125,185,232,0) 0%,rgba(104,0,255,1) 100%); background: linear-gradient(to bottom, rgba(125,185,232,0) 0%,rgba(104,0,255,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#6800ff',GradientType=0 ); z-index: -1;}
-  .intro-text {height: 280px; @include absolute-center();
+  .intro-text {height: calc(100% - 300px); @include absolute-center(); padding-top: 40px;
     .wrap {max-width: 320px;
-      .type-title-small {color: #ffffff; text-align: center;}
+      .type-title-small {color: #ffffff; text-align: center; font-size: 27px;}
     }
   }
-  .illustrations {height: 256px; text-align: center; background: url("../img/temp-drone3.png"); background-position: 60% center; background-repeat: no-repeat;}
+  .illustrations {height: 260px; text-align: center; margin-bottom: 10px; padding-top: 20px;
+    // background: url("../img/temp-drone3.png"); background-position: 60% center; background-repeat: no-repeat;
+    background: url("../img/landscape.svg");  background-repeat: repeat-x;
+    background-position: center left;
+    -webkit-animation: cloud_front_slide 40s linear infinite;
+    -moz-animation: cloud_front_slide 40s linear infinite;
+    animation: cloud_front_slide 40s linear infinite;
+    will-change: transform;
+    background-size: 1972px 133px;
+    img {max-width: 270px;}
+  }
 }
+
+@-webkit-keyframes cloud_front_slide {
+  0% {
+    background-position: 0px bottom; }
+  100% {
+    background-position: -3943px bottom; } }
+@-moz-keyframes cloud_front_slide {
+  0% {
+    background-position: 0px bottom; }
+  100% {
+    background-position: -3943px bottom; } }
+@keyframes cloud_front_slide {
+  0% {
+    background-position: 0px bottom; }
+  100% {
+    background-position: -3943px bottom; } }
+
+
 
 #register-drone {background: #ffffff; padding-left: 10px; padding-right: 10px; padding-bottom: 50px;
   .wrap {position: relative; top: -50px; padding-top: 50px; background: #ffffff; border-radius: 10px; z-index: 1; margin-bottom: -50px;
@@ -628,8 +659,8 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
   #register-drone {
     .grid-padding-x > .cell{padding-right: 20px;padding-left: 20px;}
   }
-  #home-intro .intro-text {height: 230px;}
-  #home-intro .intro-text .wrap .type-title-small {font-size: 22px; line-height: 40px;}
+  // #home-intro .intro-text {height: 230px;}
+  #home-intro .intro-text .wrap .type-title-small {font-size: 25px; line-height: 40px;}
 }
 
 // Large screen and up
@@ -765,4 +796,5 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
     .button {display: block; max-width: 400px; margin: 0 auto; margin-bottom: 20px;}
   }
   #view-application #application-preview {background: #F5F7FD;}
+  #home-intro .intro-text {height: 280px;}
 }

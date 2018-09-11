@@ -11,7 +11,7 @@ include("header.php"); ?>
           </div>
         </div>
         <div class="large-6 cell large-order-2  illustrations">
-          <!-- <img src="img/temp-drone2.png" alt=""> -->
+          <img src="img/drone.gif" alt="">
         </div>
       </div>
     </div>

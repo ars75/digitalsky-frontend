@@ -493,7 +493,8 @@ header.site-header {
   position: relative;
   top: 0px;
   left: 0px;
-  z-index: 100; }
+  z-index: 100;
+  margin-bottom: -1px; }
   header.site-header .grid-container {
     padding: 0px 10px; }
   header.site-header .grid-wrap {
@@ -693,12 +694,13 @@ footer.site-footer {
     text-align: center; }
 
 #home-intro {
-  height: calc(100vh - 70px);
-  min-height: 550px;
-  max-height: 750px;
+  height: auto;
   background: #245DFF;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  padding-bottom: 50px; }
+  #home-intro .grid-container, #home-intro .grid-x {
+    height: 100%; }
   #home-intro:after {
     content: "";
     position: absolute;
@@ -712,21 +714,50 @@ footer.site-footer {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#6800ff',GradientType=0 );
     z-index: -1; }
   #home-intro .intro-text {
-    height: 280px;
+    height: calc(100% - 300px);
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    padding-top: 40px; }
     #home-intro .intro-text .wrap {
       max-width: 320px; }
       #home-intro .intro-text .wrap .type-title-small {
         color: #ffffff;
-        text-align: center; }
+        text-align: center;
+        font-size: 27px; }
   #home-intro .illustrations {
-    height: 256px;
+    height: 260px;
     text-align: center;
-    background: url("../img/temp-drone3.png");
-    background-position: 60% center;
-    background-repeat: no-repeat; }
+    margin-bottom: 10px;
+    padding-top: 20px;
+    background: url("../img/landscape.svg");
+    background-repeat: repeat-x;
+    background-position: center left;
+    -webkit-animation: cloud_front_slide 40s linear infinite;
+    -moz-animation: cloud_front_slide 40s linear infinite;
+    animation: cloud_front_slide 40s linear infinite;
+    will-change: transform;
+    background-size: 1972px 133px; }
+    #home-intro .illustrations img {
+      max-width: 270px; }
+
+@-webkit-keyframes cloud_front_slide {
+  0% {
+    background-position: 0px bottom; }
+  100% {
+    background-position: -3943px bottom; } }
+
+@-moz-keyframes cloud_front_slide {
+  0% {
+    background-position: 0px bottom; }
+  100% {
+    background-position: -3943px bottom; } }
+
+@keyframes cloud_front_slide {
+  0% {
+    background-position: 0px bottom; }
+  100% {
+    background-position: -3943px bottom; } }
 
 #register-drone {
   background: #ffffff;
@@ -1754,10 +1785,8 @@ footer.site-footer {
   #register-drone .grid-padding-x > .cell {
     padding-right: 20px;
     padding-left: 20px; }
-  #home-intro .intro-text {
-    height: 230px; }
   #home-intro .intro-text .wrap .type-title-small {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 40px; } }
 
 @media screen and (min-width: 64em) {
@@ -2012,4 +2041,6 @@ footer.site-footer {
       margin: 0 auto;
       margin-bottom: 20px; }
   #view-application #application-preview {
-    background: #F5F7FD; } }
+    background: #F5F7FD; }
+  #home-intro .intro-text {
+    height: 280px; } }
