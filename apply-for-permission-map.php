@@ -15,6 +15,10 @@ include("header.php"); ?>
     <div id="map" class="map"></div>
   </div>
 
+<?php
+// To see how notification will look, add ?notification=true in url
+if($_GET["notification"] == true) {  ?>
+
   <div class="alert-notification" data-closable>
       <div class="title-wrap">
           <h3 class="title">restricted airspace</h3>
@@ -25,8 +29,12 @@ include("header.php"); ?>
         <span aria-hidden="true"></span>
       </button>
   </div>
+<?php } ?>
 
-  <?php if($_GET["altitude"] == true) {  ?>
+
+  <?php
+  // To see how altitude range selecter will look, add ?altitude=true in url
+  if($_GET["altitude"] == true) {  ?>
 
     <div class="altitude-range-wrap">
       <h3 class="title">Select Altitude</h3>
