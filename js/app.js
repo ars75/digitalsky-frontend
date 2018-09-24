@@ -117,7 +117,6 @@ $('.profession-clone-button').click(function(event) {
 var sliderDataEnd=$(".slider").attr('data-end');
 $('.slider').on('moved.zf.slider', function(){
     ariaValue = $('.slider-handle').attr('aria-valuenow');
-    console.log(ariaValue);
     if(ariaValue!="NaN")
     {
         $('#altitude-value').val(ariaValue+"m");
@@ -129,7 +128,6 @@ $('.slider').on('moved.zf.slider', function(){
 
     if(ariaValue==sliderDataEnd)
     {
-        console.log("Full");
         $(".circle-right").addClass('filled');
     }
     else
@@ -138,13 +136,6 @@ $('.slider').on('moved.zf.slider', function(){
     }
 
   });
-
-// Date and time picker on permission Page
-
-$(".datepicker").datepicker();
-
-$(".from-timepicker").timepicker();
-$(".to-timepicker").timepicker();
 
 // Foundation initialisation
 $(document).foundation();

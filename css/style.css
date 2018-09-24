@@ -2233,4 +2233,18 @@ footer.site-footer {
   #view-application #application-preview {
     background: #F5F7FD; }
   #home-intro .intro-text {
-    height: 280px; } }
+    height: 280px; }
+  .permission-map-search {
+    max-width: 400px; }
+  .permission-navigation .wrap {
+    max-width: 400px;
+    margin: 0 auto; }
+  .altitude-range-wrap .wrap {
+    max-width: 400px;
+    margin: 0 auto; }
+  #permission-map .altitude-notification-wrap p {
+    text-align: center; }
+  .alert-notification {
+    max-width: 400px;
+    left: auto;
+    right: 20px; } }

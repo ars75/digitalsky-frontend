@@ -37,19 +37,21 @@ if($_GET["notification"] == true) {  ?>
   if($_GET["altitude"] == true) {  ?>
 
     <div class="altitude-range-wrap">
-      <h3 class="title">Select Altitude</h3>
-      <div class="slider-wrapper">
-        <div class="slider" data-slider data-initial-start="0" data-end="500">
-          <div class="circle-left filled">
-            <?php echo file_get_contents("img/step-circle-todo.svg"); ?>
-          </div>
-            <span class="slider-handle" data-slider-handle role="slider" tabindex="1" ></span>
-            <span class="slider-fill" data-slider-fill></span>
-            <div class="circle-right">
+      <div class="wrap">
+        <h3 class="title">Select Altitude</h3>
+        <div class="slider-wrapper">
+          <div class="slider" data-slider data-initial-start="0" data-end="500">
+            <div class="circle-left filled">
               <?php echo file_get_contents("img/step-circle-todo.svg"); ?>
             </div>
+              <span class="slider-handle" data-slider-handle role="slider" tabindex="1" ></span>
+              <span class="slider-fill" data-slider-fill></span>
+              <div class="circle-right">
+                <?php echo file_get_contents("img/step-circle-todo.svg"); ?>
+              </div>
+          </div>
+          <input type="text" id="altitude-value" disabled>
         </div>
-        <input type="text" id="altitude-value" disabled>
       </div>
     </div>
 
