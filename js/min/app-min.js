@@ -11,5 +11,7 @@ $(window).scroll(function(){550<$(window).scrollTop()&&$(".site-header").addClas
 $(".profession-clone-button").click(function(e){e.preventDefault(),$(".form-profession-wrap").append('<input type="text" placeholder="Profession">')});
 // Permission Altitude drag slider
 var e=$(".slider").attr("data-end");$(".slider").on("moved.zf.slider",function(){ariaValue=$(".slider-handle").attr("aria-valuenow"),console.log(ariaValue),"NaN"!=ariaValue?$("#altitude-value").val(ariaValue+"m"):$("#altitude-value").val("0m"),ariaValue==e?(console.log("Full"),$(".circle-right").addClass("filled")):$(".circle-right").removeClass("filled")}),
+// Date and time picker on permission Page
+$(".datepicker").datepicker(),$(".from-timepicker").timepicker(),$(".to-timepicker").timepicker(),
 // Foundation initialisation
 $(document).foundation()});

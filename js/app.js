@@ -139,6 +139,13 @@ $('.slider').on('moved.zf.slider', function(){
 
   });
 
+// Date and time picker on permission Page
+
+$(".datepicker").datepicker();
+
+$(".from-timepicker").timepicker();
+$(".to-timepicker").timepicker();
+
 // Foundation initialisation
 $(document).foundation();
 
