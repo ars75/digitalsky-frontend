@@ -75,7 +75,7 @@ include("header.php"); ?>
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
-          <button type="submit" class="button" name="button">Continue</button>
+          <a href="apply-for-permission-bulk-step-2.php" class="button">Continue</a>
         </div>
       </div>
     </div>

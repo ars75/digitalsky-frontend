@@ -72,7 +72,7 @@ include("header.php"); ?>
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
-          <button type="submit" class="button" name="button">Choose area</button>
+          <a href="apply-for-permission-map.php" class="button">Choose area</a>
         </div>
       </div>
     </div>

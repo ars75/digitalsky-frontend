@@ -53,8 +53,8 @@ include("header.php"); ?>
   </div>
   <div class="permission-navigation">
     <div class="wrap">
-      <a href="apply-for-permission-1.php" class="button button-light back">back</a>
-      <a href="#" class="button continue">continue</a>
+      <a href="apply-for-permission-step-1.php" class="button button-light back">back</a>
+      <a href="apply-for-permission-step-review.php" class="button continue">continue</a>
 
     </div>
   </div>
