@@ -112,6 +112,33 @@ $('.profession-clone-button').click(function(event) {
   $('.form-profession-wrap').append('<input type="text" placeholder="Profession">');
 });
 
+// Permission Altitude drag slider
+
+var sliderDataEnd=$(".slider").attr('data-end');
+$('.slider').on('moved.zf.slider', function(){
+    ariaValue = $('.slider-handle').attr('aria-valuenow');
+    console.log(ariaValue);
+    if(ariaValue!="NaN")
+    {
+        $('#altitude-value').val(ariaValue+"m");
+    }
+    else
+    {
+        $('#altitude-value').val('0m');
+    }
+
+    if(ariaValue==sliderDataEnd)
+    {
+        console.log("Full");
+        $(".circle-right").addClass('filled');
+    }
+    else
+    {
+        $(".circle-right").removeClass('filled');
+    }
+
+  });
+
 // Foundation initialisation
 $(document).foundation();
 
