@@ -169,6 +169,20 @@ label.page-heading {padding-top: 50px;}
     padding-left: 40px;
 }
 
+// Sticky footer fix
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+footer.site-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  clear: both;
+}
+
 // Header styles
 
 header.site-header {height: 70px; width: 100%; position: relative; top: 0px; left: 0px; z-index: 100; margin-bottom: -1px;
