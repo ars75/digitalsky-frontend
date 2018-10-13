@@ -137,6 +137,10 @@ $('.slider').on('moved.zf.slider', function(){
 
   });
 
+// Sticky footer fix
+
+ $('body').css('margin-bottom', $('footer.site-footer').height());
+
 // Foundation initialisation
 $(document).foundation();
 

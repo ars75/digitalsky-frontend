@@ -489,6 +489,16 @@ label.page-heading {
   padding-right: 40px;
   padding-left: 40px; }
 
+html {
+  position: relative;
+  min-height: 100%; }
+
+footer.site-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  clear: both; }
+
 header.site-header {
   height: 70px;
   width: 100%;
