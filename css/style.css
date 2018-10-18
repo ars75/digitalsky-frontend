@@ -178,6 +178,12 @@ a {
     box-shadow: none; }
     .button.button-deny:hover {
       background: #FB5F78; }
+  .button.loading {
+    background-image: url("../img/loading.svg");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 30px;
+    padding-right: 60px; }
   .button:hover, .button.focus {
     background-color: #245DFF;
     color: #ffffff; }
