@@ -1172,6 +1172,21 @@ footer.site-footer {
         position: relative;
         display: block; }
 
+.no-data {
+  background: #FAFBFF;
+  border-radius: 6px;
+  border: 1px solid #DEE2ED;
+  padding: 100px 30px 30px 30px;
+  background-image: url("../img/application-no-data.svg");
+  background-repeat: no-repeat;
+  background-position: top 30px center; }
+  .no-data.application {
+    background-image: url("../img/application-no-data.svg"); }
+  .no-data.drone {
+    background-image: url("../img/drone-no-data.svg"); }
+  .no-data p {
+    color: #64729A; }
+
 #all-applications-admin .admin-search-wrap {
   margin-left: -15px;
   margin-right: -15px; }
