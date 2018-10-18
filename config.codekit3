@@ -136,6 +136,13 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dashboard-no-data.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/dashboard-no-data.php",
+		"oF": 0
+		},
 	"/dashboard.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -225,6 +232,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/img/accepted.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/application-no-data.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/application-no-data.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -346,6 +363,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/img/drag.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/drone-no-data.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/drone-no-data.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -473,6 +500,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/img/linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/loading.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/loading.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
