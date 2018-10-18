@@ -639,13 +639,41 @@ header.site-header {
     width: 100%;
     top: 0px;
     left: 0px;
-    background: transparent; }
+    background: transparent;
+    -webkit-animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
   header.site-header.menu-open {
     background: #F5F7FD;
     position: fixed;
     width: 100%;
     top: 0px;
     left: 0px; }
+
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
+
+body.body-menu-open {
+  margin-top: 70px; }
+
+body.sticky-gap {
+  margin-top: 70px; }
 
 footer.site-footer {
   background-color: #2B2B5B;
