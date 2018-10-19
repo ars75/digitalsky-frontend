@@ -2306,4 +2306,7 @@ footer.site-footer {
   .alert-notification {
     max-width: 400px;
     left: auto;
-    right: 20px; } }
+    right: 20px; }
+  .no-data .button {
+    display: block;
+    width: 100%; } }
