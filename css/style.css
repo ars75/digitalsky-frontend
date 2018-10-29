@@ -1681,6 +1681,9 @@ footer.site-footer {
     background-position: center bottom;
     background-repeat: no-repeat;
     z-index: -1; }
+    .thanks-page .illustrations.varified {
+      background-image: url("../img/drone-illustration.png");
+      background-position: bottom 10% center; }
   .thanks-page h2 {
     color: #ffffff; }
   .thanks-page p {
@@ -2323,4 +2326,6 @@ footer.site-footer .footer-logo p {
     right: 20px; }
   .no-data .button {
     display: block;
-    width: 100%; } }
+    width: 100%; }
+  .thanks-page .illustrations.varified {
+    background-position: center; } }
