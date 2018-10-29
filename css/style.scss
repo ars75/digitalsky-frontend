@@ -623,7 +623,9 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
 .thanks-page {padding: 80px 0px; text-align: center; margin-top: -10px; min-height: calc(100vh - 60px); position: relative; z-index: 10;
   &:before {content: ""; position: absolute; bottom: 0px; left: 0px; width: 100%; height: 100%; background: -moz-linear-gradient(top, rgba(125,185,232,0) 0%, rgba(104,0,255,1) 100%); background: -webkit-linear-gradient(top, rgba(125,185,232,0) 0%,rgba(104,0,255,1) 100%); background: linear-gradient(to bottom, rgba(125,185,232,0) 0%,rgba(104,0,255,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#6800ff',GradientType=0 ); z-index: -1;}
   &:after {content: ""; position: absolute; bottom: 0px; left: 0px; width: 100%; height: 100%; background-color: $blue-main; z-index: -2;}
-  .illustrations {content: ""; position: absolute; bottom: 0px; left: 0px; width: 100%; height: 100%; background-image: url("../img/flying-drone.png"); background-position: center bottom; background-repeat: no-repeat; z-index: -1;}
+  .illustrations {content: ""; position: absolute; bottom: 0px; left: 0px; width: 100%; height: 100%; background-image: url("../img/flying-drone.png"); background-position: center bottom; background-repeat: no-repeat; z-index: -1;
+    &.varified {background-image: url("../img/drone-illustration.png"); background-position: bottom 10% center;}
+  }
   h2 {color: #ffffff;}
   p {color: #ffffff;}
   .button {box-shadow: 0px 6px 5px 0px #341CCB;}
@@ -894,4 +896,5 @@ footer.site-footer .footer-logo p {display: none;}
   .alert-notification { max-width: 400px; left: auto; right: 20px;}
 
   .no-data .button {display: block; width: 100%;}
+  .thanks-page .illustrations.varified {background-position: center;}
 }
