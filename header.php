@@ -121,3 +121,5 @@ User icon will only show up when user is logged in.
     </div>
   </div>
   </header>
+
+<main class="content-area">

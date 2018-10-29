@@ -13,7 +13,7 @@
 </div>
 
 <div class="page-form">
-<form class="" action="dashboard.php" method="post">
+<form class="" action="registered.php" method="post">
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
       <div class="large-12 cell">

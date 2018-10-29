@@ -63,26 +63,30 @@ $('.acquisition_type').on('change', function() {
 
 // Site menu Toggle
 
+
 $(".site-nav").click(function(event) {
+  event.stopPropagation();
   $(this).toggleClass("open");
-
-  if (!$(".site-header").hasClass("sticky")) {$("body").toggleClass("body-menu-open");}
-
   $(".user-nav.dashboard").removeClass("open");
+
+  if (!$(".site-header").hasClass("sticky")) {$("body").addClass("body-menu-open");}
 
   if($(".user-nav.dashboard").hasClass("open") || $(".site-nav").hasClass("open")) {
     $(".site-header").addClass("menu-open");
   } else {
     $(".site-header").removeClass("menu-open");
   }
+
+  if (!$(".site-header").hasClass("menu-open")) {$("body").removeClass("body-menu-open");}
 
 });
 
 $(".user-nav.dashboard").click(function(event) {
+  event.stopPropagation();
   $(this).toggleClass("open");
   $(".site-nav").removeClass("open");
 
-  if (!$(".site-header").hasClass("sticky")) {$("body").toggleClass("body-menu-open");}
+  if (!$(".site-header").hasClass("sticky")) {$("body").addClass("body-menu-open");}
 
   if($(".user-nav.dashboard").hasClass("open") || $(".site-nav").hasClass("open")) {
     $(".site-header").addClass("menu-open");
@@ -90,7 +94,22 @@ $(".user-nav.dashboard").click(function(event) {
     $(".site-header").removeClass("menu-open");
   }
 
+  if (!$(".site-header").hasClass("menu-open")) {$("body").removeClass("body-menu-open");}
+  
+
 });
+
+
+$(document).click(function(){
+
+  $(".user-nav.dashboard").removeClass("open");
+  $(".site-nav").removeClass("open");
+  $("body").removeClass("body-menu-open");
+  $(".site-header").removeClass("menu-open");
+});
+
+
+
 
 // Show Apply step
 
@@ -144,10 +163,6 @@ $('.slider').on('moved.zf.slider', function(){
     }
 
   });
-
-// Sticky footer fix
-
- $('body').css('margin-bottom', $('footer.site-footer').height());
 
 // Foundation initialisation
 $(document).foundation();
