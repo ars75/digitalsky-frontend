@@ -4,7 +4,7 @@ include("header.php"); ?>
 
 <div id="apply-for-form">
 
-<form class="" action="apply-for-pilot-step-3.php" method="post">
+<form class="" action="dashboard-no-data.php" method="post">
 
   <div class="apply-for-form-header">
     <div class="grid-container">

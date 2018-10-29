@@ -1,3 +1,5 @@
+</main>
+
   <footer class="site-footer" data-equalizer data-equalize-on="medium">
     <div class="find-test-location" data-equalizer-watch>
       <div class="grid-container">

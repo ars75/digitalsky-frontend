@@ -950,6 +950,13 @@
 		"oAP": "/register.php",
 		"oF": 0
 		},
+	"/registered.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/registered.php",
+		"oF": 0
+		},
 	"/test-locations.php": {
 		"cB": 0,
 		"ft": 8192,

@@ -125,7 +125,7 @@ a {
   color: #ffffff;
   text-transform: uppercase;
   display: block;
-  padding: 12px 10px 8px 10px;
+  padding: 13px 10px 7px 10px;
   text-decoration: none; }
   .button.button-light {
     background: #FFFFFF;
@@ -495,15 +495,8 @@ label.page-heading {
   padding-right: 40px;
   padding-left: 40px; }
 
-html {
-  position: relative;
-  min-height: 100%; }
-
-footer.site-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  clear: both; }
+main.content-area {
+  min-height: calc(100vh - 277px); }
 
 header.site-header {
   height: 70px;
@@ -549,7 +542,8 @@ header.site-header {
       line-height: normal;
       font-size: 13px;
       color: #C6CFFF;
-      letter-spacing: 0.58px; }
+      letter-spacing: 0.58px;
+      margin-bottom: -5px; }
   header.site-header .user-nav.dashboard {
     background: #1940B2; }
     header.site-header .user-nav.dashboard .the-user-navigation {
@@ -676,10 +670,10 @@ header.site-header {
     opacity: 1; } }
 
 body.body-menu-open {
-  margin-top: 70px; }
+  margin-top: 69px; }
 
 body.sticky-gap {
-  margin-top: 70px; }
+  margin-top: 69px; }
 
 footer.site-footer {
   background-color: #2B2B5B;
@@ -1338,6 +1332,7 @@ footer.site-footer {
       display: flex;
       align-items: center;
       justify-content: center;
+      justify-content: flex-start;
       padding-left: 10px;
       padding-right: 20px; }
       #apply-for-block .apply-for-wrap .apply-for .details p {
@@ -1683,7 +1678,7 @@ footer.site-footer {
     width: 100%;
     height: 100%;
     background-image: url("../img/flying-drone.png");
-    background-position: center;
+    background-position: center bottom;
     background-repeat: no-repeat;
     z-index: -1; }
   .thanks-page h2 {
@@ -1997,6 +1992,22 @@ footer.site-footer {
     top: -10px;
     right: -10px; }
 
+footer.site-footer .footer-logo p {
+  display: none; }
+
+.dashboard-header h5 {
+  font-size: 12px;
+  line-height: 16px;
+  color: #2B2B5B;
+  font-family: 'poppinssemibold';
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 5px; }
+
+.dashboard-header h3 {
+  margin-bottom: 34px;
+  color: #245DFF; }
+
 @media screen and (max-width: 39.9375em) {
   .button {
     width: 100%; }
@@ -2043,7 +2054,7 @@ footer.site-footer {
     color: #003BE2; }
   .button {
     display: inline-block;
-    padding: 12px 30px 8px 30px; }
+    padding: 14px 30px 6px 30px; }
     .button:hover, .button:focus {
       background-color: #003BE2; }
   .desktop-site-navigation {
@@ -2247,6 +2258,9 @@ footer.site-footer {
   .dashboard-header .dashboard-tite-wrap {
     padding: 0px 50px; }
     .dashboard-header .dashboard-tite-wrap h2 {
+      color: #ffffff;
+      margin-bottom: 5px; }
+    .dashboard-header .dashboard-tite-wrap h5 {
       color: #ffffff; }
   #apply-for-form {
     padding: 0px; }
