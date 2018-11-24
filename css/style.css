@@ -552,6 +552,7 @@ header.site-header {
       top: 70px;
       width: 100%;
       background: #F5F7FD;
+      box-shadow: 0px 2px 34px 0px rgba(0, 0, 0, 0.09);
       display: none; }
       header.site-header .user-nav.dashboard .the-user-navigation ul {
         list-style: none;
@@ -597,6 +598,7 @@ header.site-header {
     top: 70px;
     width: 100%;
     background: #F5F7FD;
+    box-shadow: 0px 2px 34px 0px rgba(0, 0, 0, 0.09);
     display: none; }
     header.site-header .site-nav .the-site-navigation ul {
       list-style: none;
@@ -647,7 +649,8 @@ header.site-header {
     position: fixed;
     width: 100%;
     top: 0px;
-    left: 0px; }
+    left: 0px;
+    animation: none; }
 
 @-webkit-keyframes slide-in-top {
   0% {
@@ -732,6 +735,16 @@ footer.site-footer {
     background: #245DFF;
     padding: 40px 0px;
     text-align: center; }
+    footer.site-footer .footer-logo .logo-wrap {
+      width: 100px;
+      margin: 0 auto; }
+    footer.site-footer .footer-logo h4 {
+      color: #ffffff;
+      font-family: 'poppinssemibold';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 18px;
+      margin-top: 12px; }
 
 #home-intro {
   height: auto;
@@ -929,11 +942,16 @@ footer.site-footer {
   background: #F5F7FD; }
   .form-footer a.back, .view-application-footer a.back {
     margin-bottom: 20px;
-    display: block; }
+    display: block;
+    float: left;
+    position: relative;
+    top: 0px; }
     .form-footer a.back img, .view-application-footer a.back img {
       margin-right: 10px; }
   .form-footer.white-footer, .view-application-footer.white-footer {
     background: #ffffff; }
+  .form-footer .button, .view-application-footer .button {
+    float: right; }
 
 .view-application-footer {
   background: #2B2B5B; }
@@ -1034,6 +1052,8 @@ footer.site-footer {
       display: block; }
     #application-status .status:last-child {
       margin-bottom: 30px; }
+  #application-status .cell {
+    margin-bottom: 80px; }
 
 .apply-step {
   padding-left: 40px;
@@ -1056,62 +1076,60 @@ footer.site-footer {
   .apply-step.show {
     display: block; }
 
-#my-drones {
-  padding: 0px 0px 50px 0px; }
-  #my-drones .drones-wrap {
-    margin-bottom: 10px; }
-    #my-drones .drones-wrap .wrap {
-      float: left;
-      position: relative;
-      background-color: #F5F7FD;
-      background-position: center;
-      background-size: cover;
-      border-radius: 6px;
-      width: calc(50% - 10px);
-      padding-top: calc(50% - 10px);
-      position: relative;
-      margin-bottom: 20px;
-      z-index: 1;
-      overflow: hidden; }
-      #my-drones .drones-wrap .wrap:after {
-        content: "";
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
-        height: 50%;
-        width: 100%;
-        opacity: 0.6;
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%);
-        z-index: -1; }
-      #my-drones .drones-wrap .wrap p {
-        position: absolute;
-        margin: 0px;
-        bottom: 0px;
-        left: 0px;
-        width: 100%;
-        text-align: center;
-        color: #2B2B5B;
-        font-family: 'poppinssemibold';
-        font-weight: normal;
-        font-style: normal;
-        font-size: 17px;
-        line-height: 29px;
-        margin: 0px;
-        color: #ffffff;
-        font-size: 11px;
-        line-height: 18px;
-        letter-spacing: 0.49px;
-        padding: 10px 20px;
-        text-transform: uppercase; }
-      #my-drones .drones-wrap .wrap:nth-of-type(odd) {
-        margin-right: 20px; }
-      #my-drones .drones-wrap .wrap:nth-of-type(even) {
-        margin-right: 0px; }
-    #my-drones .drones-wrap:after {
+.my-drones .drones-wrap {
+  margin-bottom: 10px; }
+  .my-drones .drones-wrap .wrap {
+    float: left;
+    position: relative;
+    background-color: #F5F7FD;
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
+    width: calc(50% - 10px);
+    padding-top: calc(50% - 10px);
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 1;
+    overflow: hidden; }
+    .my-drones .drones-wrap .wrap:after {
       content: "";
-      clear: both;
-      position: relative;
-      display: block; }
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      height: 50%;
+      width: 100%;
+      opacity: 0.6;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%);
+      z-index: -1; }
+    .my-drones .drones-wrap .wrap p {
+      position: absolute;
+      margin: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 100%;
+      text-align: center;
+      color: #2B2B5B;
+      font-family: 'poppinssemibold';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 17px;
+      line-height: 29px;
+      margin: 0px;
+      color: #ffffff;
+      font-size: 11px;
+      line-height: 18px;
+      letter-spacing: 0.49px;
+      padding: 10px 20px;
+      text-transform: uppercase; }
+    .my-drones .drones-wrap .wrap:nth-of-type(odd) {
+      margin-right: 20px; }
+    .my-drones .drones-wrap .wrap:nth-of-type(even) {
+      margin-right: 0px; }
+  .my-drones .drones-wrap:after {
+    content: "";
+    clear: both;
+    position: relative;
+    display: block; }
 
 #occurence-report {
   padding: 50px 0px;
@@ -2219,7 +2237,7 @@ footer.site-footer .footer-logo p {
       text-align: center;
       font-family: 'poppinssemibold';
       font-weight: normal; }
-  .page-form .grid-container, .single-page .grid-container, #drone-profile .grid-container, .test-loaction-content .grid-container, .test-loaction-header .grid-container, #view-application .grid-container {
+  .page-form .grid-container, .single-page .grid-container, #drone-profile .grid-container, .test-loaction-content .grid-container, .test-loaction-header .grid-container, #view-application .grid-container, .form-footer .grid-container, #declaration .grid-container {
     max-width: 900px; }
   label [type=color], label [type=date], label [type=datetime-local], label [type=datetime], label [type=email], label [type=month], label [type=number], label [type=password], label [type=search], label [type=tel], label [type=text], label [type=time], label [type=url], label [type=week], label textarea, label .special-feild-wrap, label select {
     width: 70%;
@@ -2328,4 +2346,6 @@ footer.site-footer .footer-logo p {
     display: block;
     width: 100%; }
   .thanks-page .illustrations.varified {
-    background-position: center; } }
+    background-position: center; }
+  .form-footer a.back, .view-application-footer a.back {
+    top: 12px; } }

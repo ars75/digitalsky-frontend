@@ -5,7 +5,7 @@
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
       <div class="large-12 cell">
-        <h2>Email Varified!</h2>
+        <h2>Email Verified!</h2>
         <p>Thanks for verifying your email, proceed to dashboard to complete your account.</p>
           <a href="apply-for.php" class="button button-accept">Go to Dashboard</a>
       </div>
