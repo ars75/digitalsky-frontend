@@ -197,7 +197,7 @@ header.site-header {height: 70px; width: 100%; position: relative; top: 0px; lef
     p {font-family: 'poppinsbold'; margin: 0px; text-transform: uppercase; font-weight: normal; line-height: normal; font-size: 13px; color: #C6CFFF; letter-spacing: 0.58px; margin-bottom: -5px;}
   }
   .user-nav.dashboard {background: #1940B2;
-    .the-user-navigation{position: fixed; left: 0px; top: 70px; width: 100%; background: #F5F7FD; display: none;
+    .the-user-navigation{position: fixed; left: 0px; top: 70px; width: 100%; background: #F5F7FD; box-shadow: 0px 2px 34px 0px rgba(0,0,0,0.09); display: none;
       ul {list-style: none; margin: 0px;
         li {text-align: left;
           a {@include type-label-form(); margin: 0px; font-size: 17px; line-height: 28px; letter-spacing: 0.76px; text-transform: uppercase; padding: 25px 30px 21px 30px; color: #245DFF; text-decoration: none; display: block;
@@ -218,7 +218,7 @@ header.site-header {height: 70px; width: 100%; position: relative; top: 0px; lef
     }
   }
   .site-nav {
-    .the-site-navigation{position: fixed; left: 0px; top: 70px; width: 100%; background: #F5F7FD; display: none;
+    .the-site-navigation{position: fixed; left: 0px; top: 70px; width: 100%; background: #F5F7FD; box-shadow: 0px 2px 34px 0px rgba(0,0,0,0.09); display: none;
       ul {list-style: none; margin: 0px;
         li {text-align: left;
           a {@include type-label-form(); margin: 0px; font-size: 17px; line-height: 28px; letter-spacing: 0.76px; text-transform: uppercase; padding: 25px 30px 21px 30px; color: #245DFF; text-decoration: none; display: block;}
@@ -237,7 +237,7 @@ header.site-header {height: 70px; width: 100%; position: relative; top: 0px; lef
     }
   }
   &.sticky {position: fixed; width: 100%; top: 0px; left: 0px; background: transparent; -webkit-animation:slide-in-top .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-top .5s cubic-bezier(.25,.46,.45,.94) both}
-  &.menu-open {background: #F5F7FD; position: fixed; width: 100%; top: 0px; left: 0px;}
+  &.menu-open {background: #F5F7FD; position: fixed; width: 100%; top: 0px; left: 0px; animation: none;}
 }
 
 // .slide-in-top{-webkit-animation:slide-in-top .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-top .5s cubic-bezier(.25,.46,.45,.94) both}

@@ -552,6 +552,7 @@ header.site-header {
       top: 70px;
       width: 100%;
       background: #F5F7FD;
+      box-shadow: 0px 2px 34px 0px rgba(0, 0, 0, 0.09);
       display: none; }
       header.site-header .user-nav.dashboard .the-user-navigation ul {
         list-style: none;
@@ -597,6 +598,7 @@ header.site-header {
     top: 70px;
     width: 100%;
     background: #F5F7FD;
+    box-shadow: 0px 2px 34px 0px rgba(0, 0, 0, 0.09);
     display: none; }
     header.site-header .site-nav .the-site-navigation ul {
       list-style: none;
@@ -647,7 +649,8 @@ header.site-header {
     position: fixed;
     width: 100%;
     top: 0px;
-    left: 0px; }
+    left: 0px;
+    animation: none; }
 
 @-webkit-keyframes slide-in-top {
   0% {
