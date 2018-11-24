@@ -27,7 +27,7 @@ include("header.php"); ?>
           </div>
           <div class="large-3 large-offset-1 cell">
             <div class="btn-wrap">
-              <a href="register.php" class="button"><img src="img/get_started.svg" alt="">Get Started</a>
+              <a href="register.php" class="button">Get Started</a>
             </div>
           </div>
         </div>
