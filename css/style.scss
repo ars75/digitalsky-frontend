@@ -263,7 +263,10 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
   .footer-text {text-align: center;
     p {@include type-label(); color: #8D8DBF; font-size: 12px; display: block; border-top: 2px solid #4F4F88; line-height: 50px;}
   }
-  .footer-logo {background: $blue-main; padding: 40px 0px;text-align: center;}
+  .footer-logo {background: $blue-main; padding: 40px 0px;text-align: center;
+    .logo-wrap {width: 100px; margin: 0 auto;}
+    h4 {color: #ffffff;font-family: 'poppinssemibold'; font-weight: normal; font-style: normal; font-size: 18px; margin-top: 12px;}
+  }
 }
 // Home page styles
 

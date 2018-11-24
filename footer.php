@@ -37,10 +37,14 @@
       </div>
     </div>
     <div class="footer-logo" data-equalizer-watch>
+      <a href="https://www.aai.aero/" target="_blank">
       <div class="wrap">
-        <img src="img/logo.svg" alt="">
-        <p>&copy; 2018 Indian Government. All rights reserved.</p>
+        <div class="logo-wrap">
+          <img src="img/airports_authority_of_india_logo.svg" alt="">
+        </div>
+        <h4>Airports Authority of India</h4>
       </div>
+      </a>
     </div>
   </footer>
 

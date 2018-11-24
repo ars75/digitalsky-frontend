@@ -735,6 +735,16 @@ footer.site-footer {
     background: #245DFF;
     padding: 40px 0px;
     text-align: center; }
+    footer.site-footer .footer-logo .logo-wrap {
+      width: 100px;
+      margin: 0 auto; }
+    footer.site-footer .footer-logo h4 {
+      color: #ffffff;
+      font-family: 'poppinssemibold';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 18px;
+      margin-top: 12px; }
 
 #home-intro {
   height: auto;
