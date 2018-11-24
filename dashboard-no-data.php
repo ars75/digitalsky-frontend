@@ -6,7 +6,7 @@ include("header.php"); ?>
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
       <div class="large-6 cell show-for-small hide-for-large">
-        <h5>ID: 304353409</h5>
+        <h5>ID: siddharth@digitalsky</h5>
         <h3>Siddharth Ashok</h3>
       </div>
       <div class="large-6 cell">
