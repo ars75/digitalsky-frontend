@@ -26,7 +26,7 @@ include("header.php"); ?>
           <!-- <h2>Dashboard</h2> -->
           <div class="show-for-medium">
             <h2 class="user-name">Siddharth Ashok</h2>
-            <h5 class="user-id">ID: 304353409</h5>
+            <h5 class="user-id">ID: siddharth@digitalsky</h5>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@ include("header.php"); ?>
   <section id="application-status">
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
-        <div class="large-6 large-offset-3 cell">
+        <div class="large-6 cell">
 
           <h3>Application Status</h3>
 
@@ -61,20 +61,100 @@ include("header.php"); ?>
           </div>
 
         </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="my-drones">
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-6 large-offset-3 cell">
+        <div class="large-6 cell my-drones">
+          <div class="my-drones">
           <h3>My Drones</h3>
           <div class="drone no-data">
             <p>Once you’re drones ar registered, you will see your drones here.</p>
             <a href="#" class="button">Apply now</a>
           </div>
+          </div>
+        </div>
+
+      <div class="large-6 cell">
+        <div class="my-drones">
+
+        <h3>My Drones</h3>
+      <div class="drones-wrap">
+        <a class="wrap" style="background-image: url('img/temp/d1.jpg')" href="drone-profile.php">
+          <p>Parrot Bebop 2 FPV</p>
+        </a>
+        <a class="wrap" style="background-image: url('img/temp/d1.jpg')" href="drone-profile.php">
+          <p>Parrot Bebop 2 FPV</p>
+        </a>
+
+        <a class="wrap" style="background-image: url('img/temp/d1.jpg')" href="drone-profile.php">
+          <p>Parrot Bebop 2 FPV</p>
+        </a>
+        <a class="wrap" style="background-image: url('img/temp/d1.jpg')" href="drone-profile.php">
+          <p>Parrot Bebop 2 FPV</p>
+        </a>
+
       </div>
+
+      <a href="#" class="button">See all Drones</a>
+      </div>
+
+    </div>
+
+    <div class="large-6 cell">
+
+      <h3>Application Status</h3>
+
+      <div class="all-status">
+
+      <div class="status status-draft" data-equalizer>
+        <div class="details" data-equalizer-watch>
+          <p class="title">Draft</p>
+          <p class="info">Parrot Bebop 2 FPV</p>
+          <p class="meta">Stage 2</p>
+        </div>
+        <div class="action" data-equalizer-watch>
+          <a href="#" class="button">Edit</a>
+        </div>
+      </div>
+
+      <div class="status status-process" data-equalizer>
+        <div class="details" data-equalizer-watch>
+          <p class="title">In Process</p>
+          <p class="info">Parrot Bebop 2 FPV</p>
+          <p class="meta">Submitted on 03/03/2018</p>
+        </div>
+        <div class="action" data-equalizer-watch>
+          <img src="img/process.svg" alt="">
+        </div>
+      </div>
+
+      <div class="status status-declined" data-equalizer>
+        <div class="details" data-equalizer-watch>
+          <p class="title">Declined</p>
+          <p class="info">Parrot Bebop 2 FPV</p>
+          <p class="meta">Submitted on 03/03/2018</p>
+          <p class="meta">Declined on 04/03/2018</p>
+        </div>
+        <div class="action" data-equalizer-watch>
+          <img src="img/declined.svg" alt="">
+        </div>
+      </div>
+
+      <div class="status status-accepted" data-equalizer>
+        <div class="details" data-equalizer-watch>
+          <p class="title">Declined</p>
+          <p class="info">Parrot Bebop 2 FPV</p>
+          <p class="meta">Submitted on 03/03/2018</p>
+          <p class="meta">Accepted on 04/03/2018</p>
+        </div>
+        <div class="action" data-equalizer-watch>
+          <img src="img/accepted.svg" alt="">
+        </div>
+      </div>
+
+    </div> <!-- .all-status -->
+
+      <a href="#" class="button">See All Applications</a>
+
+    </div>
       </div>
     </div>
   </section>
@@ -82,7 +162,7 @@ include("header.php"); ?>
   <section id="occurence-report">
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
-        <div class="large-6 large-offset-3 cell">
+        <div class="large-6 cell">
           <h3>Occurence Report</h3>
           <p>When an issue occurs during a drone flight, please report below.</p>
           <a href="#" class="button button-light-red">Report now</a>
