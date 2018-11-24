@@ -971,11 +971,11 @@
 		"oAP": "/thanks.php",
 		"oF": 0
 		},
-	"/varified.php": {
+	"/verified.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/varified.php",
+		"oAP": "/verified.php",
 		"oF": 0
 		},
 	"/view-application.php": {
