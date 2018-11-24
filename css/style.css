@@ -932,11 +932,16 @@ footer.site-footer {
   background: #F5F7FD; }
   .form-footer a.back, .view-application-footer a.back {
     margin-bottom: 20px;
-    display: block; }
+    display: block;
+    float: left;
+    position: relative;
+    top: 0px; }
     .form-footer a.back img, .view-application-footer a.back img {
       margin-right: 10px; }
   .form-footer.white-footer, .view-application-footer.white-footer {
     background: #ffffff; }
+  .form-footer .button, .view-application-footer .button {
+    float: right; }
 
 .view-application-footer {
   background: #2B2B5B; }
@@ -2222,7 +2227,7 @@ footer.site-footer .footer-logo p {
       text-align: center;
       font-family: 'poppinssemibold';
       font-weight: normal; }
-  .page-form .grid-container, .single-page .grid-container, #drone-profile .grid-container, .test-loaction-content .grid-container, .test-loaction-header .grid-container, #view-application .grid-container {
+  .page-form .grid-container, .single-page .grid-container, #drone-profile .grid-container, .test-loaction-content .grid-container, .test-loaction-header .grid-container, #view-application .grid-container, .form-footer .grid-container, #declaration .grid-container {
     max-width: 900px; }
   label [type=color], label [type=date], label [type=datetime-local], label [type=datetime], label [type=email], label [type=month], label [type=number], label [type=password], label [type=search], label [type=tel], label [type=text], label [type=time], label [type=url], label [type=week], label textarea, label .special-feild-wrap, label select {
     width: 70%;
@@ -2331,4 +2336,6 @@ footer.site-footer .footer-logo p {
     display: block;
     width: 100%; }
   .thanks-page .illustrations.varified {
-    background-position: center; } }
+    background-position: center; }
+  .form-footer a.back, .view-application-footer a.back {
+    top: 12px; } }
