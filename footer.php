@@ -16,10 +16,12 @@
         <div class="grid-x grid-padding-x">
           <div class="large-12 cell">
             <ul>
-              <li><a href="#">Know the requirements</a></li>
+              <!-- <li><a href="#">Know the requirements</a></li>
               <li><a href="#">Legal obligations</a></li>
-              <li><a href="#">Insurence</a></li>
-              <li><a href="#">Enforcement action</a></li>
+              <li><a href="#">Insurence</a></li> -->
+              <li><a href="https://www.mygov.in/" target="_blank">MyGov</a></li>
+              <li><a href="http://www.digitalindia.gov.in/" target="_blank">Digital India</a></li>
+              <li><a href="https://www.pgportal.gov.in/" target="_blank">File a Grievance</a></li>
             </ul>
           </div>
         </div>
@@ -41,14 +43,6 @@
       </div>
     </div>
   </footer>
-
-    <!-- <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <h1>Welcome to Foundation</h1>
-        </div>
-      </div>
-    </div> -->
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
