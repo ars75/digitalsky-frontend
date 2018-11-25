@@ -114,7 +114,7 @@ include("header.php"); ?>
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
       <div class="large-12 cell">
-        <a href="apply-for-pilot-step-2.php" class="back"> <img src="img/back-white.svg" alt="">Go back to previous step</a>
+        <a href="admin.php" class="back"> <img src="img/back-white.svg" alt="">Go back to previous step</a>
       </div>
     </div>
   </div>

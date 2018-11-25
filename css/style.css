@@ -2324,6 +2324,8 @@ footer.site-footer .footer-logo p {
       max-width: 400px;
       margin: 0 auto;
       margin-bottom: 20px; }
+    .view-application-footer.admin-footer .button.button-deny {
+      float: left; }
   #view-application #application-preview {
     background: #F5F7FD; }
   #home-intro .intro-text {
@@ -2348,4 +2350,6 @@ footer.site-footer .footer-logo p {
   .thanks-page .illustrations.varified {
     background-position: center; }
   .form-footer a.back, .view-application-footer a.back {
-    top: 12px; } }
+    top: 12px; }
+  #all-applications-admin .admin-search-wrap {
+    margin: 0px; } }

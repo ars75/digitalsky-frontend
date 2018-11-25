@@ -890,6 +890,7 @@ footer.site-footer .footer-logo p {display: none;}
 
   .view-application-footer.admin-footer {background:#F5F7FD; padding: 50px 0px;
     .button {display: block; max-width: 400px; margin: 0 auto; margin-bottom: 20px;}
+    .button.button-deny {float: left;}
   }
   #view-application #application-preview {background: #F5F7FD;}
   #home-intro .intro-text {height: 280px;}
@@ -905,4 +906,6 @@ footer.site-footer .footer-logo p {display: none;}
   .thanks-page .illustrations.varified {background-position: center;}
 
   .form-footer a.back, .view-application-footer a.back {top: 12px;}
+
+  #all-applications-admin .admin-search-wrap {margin: 0px;}
 }
