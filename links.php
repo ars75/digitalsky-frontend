@@ -1,5 +1,8 @@
 <?php include("header.php"); ?>
-
+<style media="screen">
+  h3 {margin-bottom: 0px; margin-top:30px;}
+  p {margin-bottom: 0px; margin-top:0px;}
+</style>
 <div class="grid-container">
   <div class="grid-x grid-padding-x">
     <div class="large-12 cell">
@@ -14,7 +17,7 @@
       <a href="registered.php" target="_blank">Registered</a><br>
       <a href="blog.php" target="_blank">Blog</a><br>
       <a href="page.php" target="_blank">Single Page Template</a><br>
-      <a href="know-requirements.php" target="_blank">Know Reequirements</a><br>
+      <a href="know-requirements.php" target="_blank">Know Requirements</a><br>
 
       <h3>Signup-login</h3>
 
