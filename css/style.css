@@ -445,7 +445,7 @@ label.page-heading {
 .accordion {
   background: transparent; }
   .accordion .accordion-title {
-    padding: 10px 0px;
+    padding: 20px 30px 20px 0px;
     color: #2B2B5B;
     font-family: 'poppinssemibold';
     font-weight: normal;
@@ -455,9 +455,10 @@ label.page-heading {
     margin: 0px;
     font-size: 15px;
     color: #245DFF;
-    text-decoration: underline;
+    text-decoration: none;
     border: 0px;
-    border-bottom: 2px solid #E2E6FF; }
+    border-bottom: 2px solid #E2E6FF;
+    padding-right: 30px; }
   .accordion .is-active .accordion-title {
     color: #2B2B5B;
     border: 0px; }
@@ -2028,6 +2029,24 @@ footer.site-footer .footer-logo p {
 .dashboard-header h3 {
   margin-bottom: 34px;
   color: #245DFF; }
+
+table tr {
+  font-size: 14px; }
+
+table tbody td, table tbody th {
+  padding: 5px 15px 3px 15px; }
+
+table tbody, table tfoot, table thead {
+  background-color: #e6e8ef; }
+
+#faq-glossory {
+  margin-bottom: 80px; }
+
+#faq-glossory tr td:first-child {
+  font-family: 'poppinssemibold';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 14px; }
 
 @media screen and (max-width: 39.9375em) {
   .button {
