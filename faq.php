@@ -16,7 +16,7 @@ include("header.php"); ?>
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-6 cell">
-            <h2>Glossory</h2>
+            <h2>Glossary</h2>
             <table id="faq-glossory">
                 <tbody>
                 <tr><td>AAI</td><td> Airports Authority of India</td></tr>

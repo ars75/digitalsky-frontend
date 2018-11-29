@@ -379,28 +379,28 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
 }
 
 #application-status {padding: 50px 0px;
-  .status {padding: 20px; border-radius: 6px; margin-bottom: 10px;
-    .details {width: calc(100% - 80px); float: left; padding-right: 20px;
-      p, p.title, p.info, p.meta {margin: 0px; color: #ffffff;}
-      .title {@include type-label-form(); font-size: 17px; line-height: 26px; letter-spacing: 0.76px; text-transform: uppercase; margin: 0px;}
-      .info {@include type-regular(); font-size: 16px; line-height: 26px;}
-      .meta {@include type-label(); font-size: 11px; line-height: 17px;}
-    }
-    .action {width: 80px; float: left; position: relative; @include absolute-center(); justify-content: flex-end;
-      // img {position: absolute; bottom: 0px; right: 0px;}
-    }
-    &.status-draft {border: 1px solid #DEE2ED; border-bottom: 2px solid #DEE2ED; box-shadow: 0px 6px 5px 0px #F4F4F4;
-      p, p.title, p.info, p.meta {color: $blue-heading;}
-      .action {@include absolute-center();}
-    }
-    &.status-process {background: #EC8416; border: 1px solid #D76800; border-bottom: 2px solid #D76800; box-shadow: 0px 6px 5px 0px #FFE4C8;}
-    &.status-declined {background: #E25353; border: 1px solid #B13232; border-bottom: 2px solid #B13232; box-shadow: 0px 6px 5px 0px #FFE1E1;}
-    &.status-accepted {background: #00B653; border: 1px solid #009D3A; border-bottom: 2px solid #009D3A; box-shadow: 0px 6px 5px 0px #BFFFDC;}
-    &:after {content: ""; clear: both; position: relative; display: block;}
-    &:last-child {margin-bottom: 30px;}
-  }
-
   .cell {margin-bottom: 80px;}
+}
+
+.status {padding: 20px; border-radius: 6px; margin-bottom: 10px;
+  .details {width: calc(100% - 80px); float: left; padding-right: 20px;
+    p, p.title, p.info, p.meta {margin: 0px; color: #ffffff;}
+    .title {@include type-label-form(); font-size: 17px; line-height: 26px; letter-spacing: 0.76px; text-transform: uppercase; margin: 0px;}
+    .info {@include type-regular(); font-size: 16px; line-height: 26px;}
+    .meta {@include type-label(); font-size: 11px; line-height: 17px;}
+  }
+  .action {width: 80px; float: left; position: relative; @include absolute-center(); justify-content: flex-end;
+    // img {position: absolute; bottom: 0px; right: 0px;}
+  }
+  &.status-draft {border: 1px solid #DEE2ED; border-bottom: 2px solid #DEE2ED; box-shadow: 0px 6px 5px 0px #F4F4F4;
+    p, p.title, p.info, p.meta {color: $blue-heading;}
+    .action {@include absolute-center();}
+  }
+  &.status-process {background: #EC8416; border: 1px solid #D76800; border-bottom: 2px solid #D76800; box-shadow: 0px 6px 5px 0px #FFE4C8;}
+  &.status-declined {background: #E25353; border: 1px solid #B13232; border-bottom: 2px solid #B13232; box-shadow: 0px 6px 5px 0px #FFE1E1;}
+  &.status-accepted {background: #00B653; border: 1px solid #009D3A; border-bottom: 2px solid #009D3A; box-shadow: 0px 6px 5px 0px #BFFFDC;}
+  &:after {content: ""; clear: both; position: relative; display: block;}
+  &:last-child {margin-bottom: 30px;}
 }
 
 .apply-step {padding-left: 40px; min-height: 60px; background-image: url("../img/apply-step.svg"); background-repeat: no-repeat; background-position: left center; margin-bottom: 10px; margin-top: -10px; display: none;
@@ -616,6 +616,9 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
     p {margin: 0px;
       strong {@include type-label(); font-size: 15px; line-height: 30px;}
     }
+  }
+  .apply-for-permission {margin-bottom: 50px;
+    .all-status {margin-top: 50px;}
   }
 }
 
@@ -872,7 +875,7 @@ table tbody, table tfoot, table thead {background-color: #e6e8ef;}
       p {color: #ffffff;}
     }
     .dashboard-tite-wrap {padding: 0px 50px;
-      h2 {color: #ffffff; margin-bottom: 5px;}
+      h2 {color: #ffffff; margin-bottom: 5px; text-transform: capitalize;}
       h5 {color: #ffffff;}
     }
   }

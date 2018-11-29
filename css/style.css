@@ -970,91 +970,92 @@ footer.site-footer {
 
 #application-status {
   padding: 50px 0px; }
-  #application-status .status {
-    padding: 20px;
-    border-radius: 6px;
-    margin-bottom: 10px; }
-    #application-status .status .details {
-      width: calc(100% - 80px);
-      float: left;
-      padding-right: 20px; }
-      #application-status .status .details p, #application-status .status .details p.title, #application-status .status .details p.info, #application-status .status .details p.meta {
-        margin: 0px;
-        color: #ffffff; }
-      #application-status .status .details .title {
-        color: #2B2B5B;
-        font-family: 'poppinsbold';
-        font-weight: normal;
-        font-style: normal;
-        font-size: 17px;
-        line-height: 29px;
-        margin-bottom: 20px;
-        font-size: 17px;
-        line-height: 26px;
-        letter-spacing: 0.76px;
-        text-transform: uppercase;
-        margin: 0px; }
-      #application-status .status .details .info {
-        color: #64729A;
-        font-family: 'poppinsregular';
-        font-weight: normal;
-        font-style: normal;
-        font-size: 15px;
-        line-height: 30px;
-        font-size: 16px;
-        line-height: 26px; }
-      #application-status .status .details .meta {
-        color: #2B2B5B;
-        font-family: 'poppinssemibold';
-        font-weight: normal;
-        font-style: normal;
-        font-size: 17px;
-        line-height: 29px;
-        margin: 0px;
-        font-size: 11px;
-        line-height: 17px; }
-    #application-status .status .action {
-      width: 80px;
-      float: left;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      justify-content: flex-end; }
-    #application-status .status.status-draft {
-      border: 1px solid #DEE2ED;
-      border-bottom: 2px solid #DEE2ED;
-      box-shadow: 0px 6px 5px 0px #F4F4F4; }
-      #application-status .status.status-draft p, #application-status .status.status-draft p.title, #application-status .status.status-draft p.info, #application-status .status.status-draft p.meta {
-        color: #2B2B5B; }
-      #application-status .status.status-draft .action {
-        display: flex;
-        align-items: center;
-        justify-content: center; }
-    #application-status .status.status-process {
-      background: #EC8416;
-      border: 1px solid #D76800;
-      border-bottom: 2px solid #D76800;
-      box-shadow: 0px 6px 5px 0px #FFE4C8; }
-    #application-status .status.status-declined {
-      background: #E25353;
-      border: 1px solid #B13232;
-      border-bottom: 2px solid #B13232;
-      box-shadow: 0px 6px 5px 0px #FFE1E1; }
-    #application-status .status.status-accepted {
-      background: #00B653;
-      border: 1px solid #009D3A;
-      border-bottom: 2px solid #009D3A;
-      box-shadow: 0px 6px 5px 0px #BFFFDC; }
-    #application-status .status:after {
-      content: "";
-      clear: both;
-      position: relative;
-      display: block; }
-    #application-status .status:last-child {
-      margin-bottom: 30px; }
   #application-status .cell {
     margin-bottom: 80px; }
+
+.status {
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 10px; }
+  .status .details {
+    width: calc(100% - 80px);
+    float: left;
+    padding-right: 20px; }
+    .status .details p, .status .details p.title, .status .details p.info, .status .details p.meta {
+      margin: 0px;
+      color: #ffffff; }
+    .status .details .title {
+      color: #2B2B5B;
+      font-family: 'poppinsbold';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 17px;
+      line-height: 29px;
+      margin-bottom: 20px;
+      font-size: 17px;
+      line-height: 26px;
+      letter-spacing: 0.76px;
+      text-transform: uppercase;
+      margin: 0px; }
+    .status .details .info {
+      color: #64729A;
+      font-family: 'poppinsregular';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 15px;
+      line-height: 30px;
+      font-size: 16px;
+      line-height: 26px; }
+    .status .details .meta {
+      color: #2B2B5B;
+      font-family: 'poppinssemibold';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 17px;
+      line-height: 29px;
+      margin: 0px;
+      font-size: 11px;
+      line-height: 17px; }
+  .status .action {
+    width: 80px;
+    float: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-end; }
+  .status.status-draft {
+    border: 1px solid #DEE2ED;
+    border-bottom: 2px solid #DEE2ED;
+    box-shadow: 0px 6px 5px 0px #F4F4F4; }
+    .status.status-draft p, .status.status-draft p.title, .status.status-draft p.info, .status.status-draft p.meta {
+      color: #2B2B5B; }
+    .status.status-draft .action {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+  .status.status-process {
+    background: #EC8416;
+    border: 1px solid #D76800;
+    border-bottom: 2px solid #D76800;
+    box-shadow: 0px 6px 5px 0px #FFE4C8; }
+  .status.status-declined {
+    background: #E25353;
+    border: 1px solid #B13232;
+    border-bottom: 2px solid #B13232;
+    box-shadow: 0px 6px 5px 0px #FFE1E1; }
+  .status.status-accepted {
+    background: #00B653;
+    border: 1px solid #009D3A;
+    border-bottom: 2px solid #009D3A;
+    box-shadow: 0px 6px 5px 0px #BFFFDC; }
+  .status:after {
+    content: "";
+    clear: both;
+    position: relative;
+    display: block; }
+  .status:last-child {
+    margin-bottom: 30px; }
 
 .apply-step {
   padding-left: 40px;
@@ -1638,6 +1639,11 @@ footer.site-footer {
       margin: 0px;
       font-size: 15px;
       line-height: 30px; }
+
+#drone-profile .apply-for-permission {
+  margin-bottom: 50px; }
+  #drone-profile .apply-for-permission .all-status {
+    margin-top: 50px; }
 
 .help-wrap {
   position: relative; }
@@ -2299,7 +2305,8 @@ table tbody, table tfoot, table thead {
     padding: 0px 50px; }
     .dashboard-header .dashboard-tite-wrap h2 {
       color: #ffffff;
-      margin-bottom: 5px; }
+      margin-bottom: 5px;
+      text-transform: capitalize; }
     .dashboard-header .dashboard-tite-wrap h5 {
       color: #ffffff; }
   #apply-for-form {
