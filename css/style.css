@@ -2252,7 +2252,7 @@ table tbody, table tfoot, table thead {
     align-items: center;
     justify-content: center; }
     footer.site-footer .footer-logo img {
-      width: 250px;
+      max-width: 400px;
       margin-bottom: 10px; }
     footer.site-footer .footer-logo p {
       font-size: 12px;
@@ -2378,4 +2378,9 @@ table tbody, table tfoot, table thead {
   .form-footer a.back, .view-application-footer a.back {
     top: 12px; }
   #all-applications-admin .admin-search-wrap {
-    margin: 0px; } }
+    margin: 0px; }
+  footer.site-footer .footer-nav ul li {
+    text-align: left; }
+  footer.site-footer .footer-nav {
+    padding: 50px;
+    display: block; } }
