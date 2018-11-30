@@ -29,7 +29,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Ambitions%20Flying%20Club%20Pvt.%20Ltd.,%20MS-%2010%20NH-91,%20Aligarh%20Airstrip,%20Dhanipur,%20Post%20Panethi,%20Aligarh-202001%20UP" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Ambitions%20Flying%20Club%20Pvt.%20Ltd.,%20MS-%2010%20NH-91,%20Aligarh%20Airstrip,%20Dhanipur,%20Post%20Panethi,%20Aligarh-202001%20UP" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
 
@@ -41,7 +41,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Falcon%20Aviation%20Academy,%20Faizabad%20(UP)" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Falcon%20Aviation%20Academy,%20Faizabad%20(UP)" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
 
@@ -53,7 +53,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Garg%20Aviation%20Ltd.,%20Hanger%20No.3,%20Civil%20Aerodrome,%20Cantt.%20Kanpur-%20208004,%20UP" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Garg%20Aviation%20Ltd.,%20Hanger%20No.3,%20Civil%20Aerodrome,%20Cantt.%20Kanpur-%20208004,%20UP" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
 
@@ -65,7 +65,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Indira%20Gandhi%20Rashtriya%20Udan%20Akademi%20Fursatganj,%20Dist.%0ARaebareilly,%20%20UP-229302" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Indira%20Gandhi%20Rashtriya%20Udan%20Akademi%20Fursatganj,%20Dist.%0ARaebareilly,%20%20UP-229302" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
                 <div class="location">
@@ -76,7 +76,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Pioneer%20Flying%20Academy%20Pvt.%20Ltd,%20MS-10,%20NH-91,%20Dhanipur%20Airport,%20Post%20Panethi,%20Aligarh-202001%20UP" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Pioneer%20Flying%20Academy%20Pvt.%20Ltd,%20MS-10,%20NH-91,%20Dhanipur%20Airport,%20Post%20Panethi,%20Aligarh-202001%20UP" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
                 <div class="location">
@@ -87,7 +87,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Saraswati%20Aviation%20Academy,%20Sultanpur,%20Amhat%20Airfield,%20UP" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Saraswati%20Aviation%20Academy,%20Sultanpur,%20Amhat%20Airfield,%20UP" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
               </div>
@@ -105,7 +105,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Amber%20Aviation%20Pvt.Ltd.,%20Pant%20Nagar" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Amber%20Aviation%20Pvt.Ltd.,%20Pant%20Nagar" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
               </div>
@@ -124,7 +124,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Bihar%20Flying%20Instt.%20Government%20of%20Bihar,%20Cabinet%20Secretariate%20Civil%20Aviation%20Directorate,%20Patna%20Airport,%20Patna" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Bihar%20Flying%20Instt.%20Government%20of%20Bihar,%20Cabinet%20Secretariate%20Civil%20Aviation%20Directorate,%20Patna%20Airport,%20Patna" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
               </div>
@@ -143,7 +143,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Alchemist%20Aviation%20Pvt.%20Ltd.%20Sonari%20Aerodrome,%20Jamshedpur,%20Jharkhand-831011" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Alchemist%20Aviation%20Pvt.%20Ltd.%20Sonari%20Aerodrome,%20Jamshedpur,%20Jharkhand-831011" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
               </div>
@@ -163,7 +163,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Ahmedabad%20Aviation%20&%20Aeronautics%20Ltd.,%20AAA%20Hanger.%20Old%20Terminal%20Airport,%20Ahmedabad%2038003,%20Gujarat" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Ahmedabad%20Aviation%20&%20Aeronautics%20Ltd.,%20AAA%20Hanger.%20Old%20Terminal%20Airport,%20Ahmedabad%2038003,%20Gujarat" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
 
@@ -175,7 +175,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Gujarat%20Flying%20Club,Vadodara" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Gujarat%20Flying%20Club,Vadodara" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
               </div>
@@ -194,7 +194,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Haryana%20Institute%20of%20Civil%20Aviation" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Haryana%20Institute%20of%20Civil%20Aviation" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
               </div>
@@ -213,7 +213,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Madhya%20Pradesh%20Flying%20Club,%20Devi%20Ahilyabai%20Holkar%20Airport,%20Civil%20Aerodrome,%20Bijasan%20Road,%20Indore-%20452005" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Madhya%20Pradesh%20Flying%20Club,%20Devi%20Ahilyabai%20Holkar%20Airport,%20Civil%20Aerodrome,%20Bijasan%20Road,%20Indore-%20452005" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
                 <div class="location">
@@ -224,7 +224,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Madhya%20Pradesh%20Flying%20Club,%20Raja%20Bhoj%20Airport,%20Bhopal" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Madhya%20Pradesh%20Flying%20Club,%20Raja%20Bhoj%20Airport,%20Bhopal" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
                 <div class="location">
@@ -235,7 +235,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Chimes%20Aviation,%20Sagar,%20(MP)" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Chimes%20Aviation,%20Sagar,%20(MP)" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
                 <div class="location">
@@ -246,7 +246,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Sha-%20Shib%20Flying%20Academy,%20(Guna)%20M.P." class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Sha-%20Shib%20Flying%20Academy,%20(Guna)%20M.P." class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
 
@@ -267,7 +267,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Patiala%20Aviation%20Club,%20Civil%20Aerodrome,%20Sangrur%20Road,%20Patiala" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Patiala%20Aviation%20Club,%20Civil%20Aerodrome,%20Sangrur%20Road,%20Patiala" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
               </div>
@@ -286,7 +286,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Banasthali%20Vidyapith%20Gliding%20Flying%20Club,%20Banasthali%20Univ.,%20Banasthali,%20Dist.%20Tonk%20Raj.-304022" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Banasthali%20Vidyapith%20Gliding%20Flying%20Club,%20Banasthali%20Univ.,%20Banasthali,%20Dist.%20Tonk%20Raj.-304022" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
               </div>
@@ -310,7 +310,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Asia%20Pacific%20Flight%20Training%20Academy%20Ltd.%20GMR%20HIAL%20Airport%20Office%20Rajiv%20Gandhi%20International%20Airport%20Shamshabad,%20%20Hyderabad-500409" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Asia%20Pacific%20Flight%20Training%20Academy%20Ltd.%20GMR%20HIAL%20Airport%20Office%20Rajiv%20Gandhi%20International%20Airport%20Shamshabad,%20%20Hyderabad-500409" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
 
@@ -322,7 +322,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Flytech%20Aviation%20Academy,%20A1-%20Kauser,%20Plot%20No.295,%20Road%20No.%2010,%20West%20Maredpally.%20Secunderabad." class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Flytech%20Aviation%20Academy,%20A1-%20Kauser,%20Plot%20No.295,%20Road%20No.%2010,%20West%20Maredpally.%20Secunderabad." class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
 
@@ -334,7 +334,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Telangana%20State%20Aviation%20Academy,Andhra%20Pradesh,old%20Air%20port,Hyderabad-500011" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Telangana%20State%20Aviation%20Academy,Andhra%20Pradesh,old%20Air%20port,Hyderabad-500011" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
                 <div class="location">
@@ -345,7 +345,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Wings%20Aviation%20Pct.%20Ltd.,%201-11-256/B,%20Plot%20No.%20108,%20Adjacent%20Airport%20Road,%20Begumpet,%20%20Hyderabad." class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Wings%20Aviation%20Pct.%20Ltd.,%201-11-256/B,%20Plot%20No.%20108,%20Adjacent%20Airport%20Road,%20Begumpet,%20%20Hyderabad." class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
               </div>
@@ -363,7 +363,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Nagpur%20Flying%20Club,%20Office%20of%20the%20Divisional%20Commissioner,%20Civil%20Lines,%20Nagpur-01" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Nagpur%20Flying%20Club,%20Office%20of%20the%20Divisional%20Commissioner,%20Civil%20Lines,%20Nagpur-01" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
 
@@ -375,7 +375,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=National%20Flying%20Training%20Institute,%20Pvt.%20Ltd,%20C/o%20Airport%20Authority%20of%20India,%20Birsi%20Airport,%20P.O.%20Paraswada,%20Gondia,%20425%20614%20Maharashtra" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=National%20Flying%20Training%20Institute,%20Pvt.%20Ltd,%20C/o%20Airport%20Authority%20of%20India,%20Birsi%20Airport,%20P.O.%20Paraswada,%20Gondia,%20425%20614%20Maharashtra" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
 
@@ -387,7 +387,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=SKVM%E2%80%99s%20Flying%20Academy%20of%20Aviation,%20Campus-Babulde,%20Banks%20of%20Tapi%20River,%20Mumbai-Agra%20Road,%20Shirpur,%20Dist.-Dhule-425%20405" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=SKVM%E2%80%99s%20Flying%20Academy%20of%20Aviation,%20Campus-Babulde,%20Banks%20of%20Tapi%20River,%20Mumbai-Agra%20Road,%20Shirpur,%20Dist.-Dhule-425%20405" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
                 <div class="location">
@@ -398,7 +398,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=The%20Bombay%20Flying%20Club,%20Juhu%20Airport,%20Santacruz%20(W),%20Mumbai" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=The%20Bombay%20Flying%20Club,%20Juhu%20Airport,%20Santacruz%20(W),%20Mumbai" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
                 <div class="location">
@@ -409,7 +409,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Academy%20of%20Carver%20Aviation,%20Plot%20No.%20P-50,MIDC%20Ind.%20Area,%20Near%20Baramati%20Airport,%20Baramati-413133" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Academy%20of%20Carver%20Aviation,%20Plot%20No.%20P-50,MIDC%20Ind.%20Area,%20Near%20Baramati%20Airport,%20Baramati-413133" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
               </div>
@@ -429,7 +429,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Orient%20Flight%20Aviation%20Academy,Mysore." class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Orient%20Flight%20Aviation%20Academy,Mysore." class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
                 <div class="location">
@@ -440,7 +440,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Govt.%20Flying%20Training%20School,%20Jakkur,%20Bangalore." class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Govt.%20Flying%20Training%20School,%20Jakkur,%20Bangalore." class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
               </div>
@@ -459,7 +459,7 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Govt.%20Aviation%20Training%20Instt.,%20Directorate%20of%20Aviation,%20Orissa,%20Civil%20Aerodrome,%20%20Bhubaneshwar." class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Govt.%20Aviation%20Training%20Instt.,%20Directorate%20of%20Aviation,%20Orissa,%20Civil%20Aerodrome,%20%20Bhubaneshwar." class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
               </div>
@@ -478,102 +478,13 @@
                     </div>
                   </div>
                   <div class="go-to-location">
-                    <a href="https://maps.google.com/maps?q=Rajiv%20Gandhi%20Academy%20for%20Aviation%20Technology,%20%20Thiruvanathapuram" class="button"><img src="img/location-button-icon.svg" alt=""></a>
+                    <a href="https://maps.google.com/maps?q=Rajiv%20Gandhi%20Academy%20for%20Aviation%20Technology,%20%20Thiruvanathapuram" class="button" target="_blank"><img src="img/location-button-icon.svg" alt=""></a>
                   </div>
                 </div>
               </div>
             </div>
           </li>
         </ul>
-
-        <!-- <h2>East &amp; North East India</h2> -->
-
-        <!-- <ul class="accordion" data-accordion data-allow-all-closed="true">
-          <li class="accordion-item" data-accordion-item>
-            <a href="#" class="accordion-title">Arunachal Pradesh</a>
-            <div class="accordion-content" data-tab-content>
-              <div class="locations">
-                <div class="location">
-                  <div class="details">
-                    <div class="wrap">
-                      <h3>Lucknow</h3>
-                      <p>Shivgarh Resorts</p>
-                    </div>
-                  </div>
-                  <div class="go-to-location">
-                    <a href="https://www.google.com/maps/search/?api=1&query=26.7273295,80.8387206" class="button"><img src="img/location-button-icon.svg" alt=""></a>
-                  </div>
-                </div>
-
-                <div class="location">
-                  <div class="details">
-                    <div class="wrap">
-                      <h3>Lucknow</h3>
-                      <p>Chaudhary Charan Singh International Airport</p>
-                    </div>
-                  </div>
-                  <div class="go-to-location">
-                    <a href="https://www.google.com/maps/search/?api=1&query=26.7617317,80.885655" class="button"><img src="img/location-button-icon.svg" alt=""></a>
-                  </div>
-                </div>
-
-                <div class="location">
-                  <div class="details">
-                    <div class="wrap">
-                      <h3>Varanasi</h3>
-                      <p>Lal Bahadur Shastri International Airport</p>
-                    </div>
-                  </div>
-                  <div class="go-to-location">
-                    <a href="https://www.google.com/maps/search/?api=1&query=25.4487677,82.8567959" class="button"><img src="img/location-button-icon.svg" alt=""></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="accordion-item" data-accordion-item>
-            <a href="#" class="accordion-title">Assam</a>
-            <div class="accordion-content" data-tab-content>
-              <div class="locations">
-                <div class="location">
-                  <div class="details">
-                    <div class="wrap">
-                      <h3>Lucknow</h3>
-                      <p>Shivgarh Resorts</p>
-                    </div>
-                  </div>
-                  <div class="go-to-location">
-                    <a href="https://www.google.com/maps/search/?api=1&query=26.7273295,80.8387206" class="button"><img src="img/location-button-icon.svg" alt=""></a>
-                  </div>
-                </div>
-
-                <div class="location">
-                  <div class="details">
-                    <div class="wrap">
-                      <h3>Lucknow</h3>
-                      <p>Chaudhary Charan Singh International Airport</p>
-                    </div>
-                  </div>
-                  <div class="go-to-location">
-                    <a href="https://www.google.com/maps/search/?api=1&query=26.7617317,80.885655" class="button"><img src="img/location-button-icon.svg" alt=""></a>
-                  </div>
-                </div>
-
-                <div class="location">
-                  <div class="details">
-                    <div class="wrap">
-                      <h3>Varanasi</h3>
-                      <p>Lal Bahadur Shastri International Airport</p>
-                    </div>
-                  </div>
-                  <div class="go-to-location">
-                    <a href="https://www.google.com/maps/search/?api=1&query=25.4487677,82.8567959" class="button"><img src="img/location-button-icon.svg" alt=""></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul> -->
       </div>
     </div>
   </div>
