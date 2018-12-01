@@ -331,10 +331,11 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
 
   select {margin-left: 5px; margin-right: 5px;}
 
-  .other-parts {display: none;}
-  .under, .over, .pilot, .operator, .manufacturer, .in-india, .import {display: none;}
+  .other-parts, .and-parts {display: none;}
+  .under, .over, .pilot, .operator, .manufacturer, .in-india, .import, .micro, .above-micro {display: none;}
   .button {display: none;}
   .show {display: block;}
+  .acquisition_type, .pilot_type, .manufacture_type {display: none; }
 }
 
 #press-releases {padding: 50px 0px;

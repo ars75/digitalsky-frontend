@@ -6,7 +6,6 @@ $(document).ready(function(){
 $('.drone_weight').on('change', function() {
   var droneWeight = this.value;
   $(this).addClass('selected');
-  $('#help-me-apply .other-parts').show();
   $('#help-me-apply .question').addClass('selected');
   $('#help-me-apply .button').addClass('show');
 
@@ -23,6 +22,9 @@ $('.drone_weight').on('change', function() {
   if(droneWeight == "over") {
     $('#help-me-apply .answer .over').show();
     $('#help-me-apply .answer .under').hide();
+
+    $('#help-me-apply .other-parts').show();
+
   }
 
 });
@@ -30,20 +32,60 @@ $('.drone_weight').on('change', function() {
 $('.license_type').on('change', function() {
   var licenseType = this.value;
   $(this).addClass('selected');
+  $("#help-me-apply .and-parts").show();
   if(licenseType == "pilot") {
+    $('.pilot_type').show();
+    $('.acquisition_type').hide();
+    $('.manufacture_type').hide();
+
+
     $('#help-me-apply .pilot').show();
     $('#help-me-apply .operator').hide();
     $('#help-me-apply .manufacturer').hide();
   }
   if(licenseType == "operator") {
+    $('.pilot_type').hide();
+    $('.acquisition_type').show();
+    $('.manufacture_type').hide();
+
     $('#help-me-apply .pilot').hide();
     $('#help-me-apply .operator').show();
     $('#help-me-apply .manufacturer').hide();
   }
   if(licenseType == "manufacturer") {
+    $('.pilot_type').hide();
+    $('.acquisition_type').hide();
+    $('.manufacture_type').show();
+
     $('#help-me-apply .pilot').hide();
     $('#help-me-apply .operator').hide();
     $('#help-me-apply .manufacturer').show();
+  }
+});
+
+$('.manufacture_type').on('change', function() {
+  var acquisitionType = this.value;
+  $(this).addClass('selected');
+  if(acquisitionType == "in-india") {
+    $('#help-me-apply .manufacturer .in-india').show();
+    $('#help-me-apply .manufacturer .import').hide();
+  }
+  if(acquisitionType == "import") {
+    $('#help-me-apply .manufacturer .in-india').hide();
+    $('#help-me-apply .manufacturer .import').show();
+  }
+});
+
+$('.pilot_type').on('change', function() {
+  var acquisitionType = this.value;
+  $(this).addClass('selected');
+  if(acquisitionType == "micro") {
+    $('#help-me-apply .pilot .micro').show();
+    $('#help-me-apply .pilot .above-micro').hide();
+  }
+  if(acquisitionType == "above-micro") {
+    $('#help-me-apply .pilot .micro').hide();
+    $('#help-me-apply .pilot .above-micro').show();
   }
 });
 
@@ -51,12 +93,12 @@ $('.acquisition_type').on('change', function() {
   var acquisitionType = this.value;
   $(this).addClass('selected');
   if(acquisitionType == "in-india") {
-    $('#help-me-apply .in-india').show();
-    $('#help-me-apply .import').hide();
+    $('#help-me-apply .operator .in-india').show();
+    $('#help-me-apply .operator .import').hide();
   }
   if(acquisitionType == "import") {
-    $('#help-me-apply .in-india').show();
-    $('#help-me-apply .import').hide();
+    $('#help-me-apply .operator .in-india').hide();
+    $('#help-me-apply .operator .import').show();
   }
 });
 
@@ -95,7 +137,7 @@ $(".user-nav.dashboard").click(function(event) {
   }
 
   if (!$(".site-header").hasClass("menu-open")) {$("body").removeClass("body-menu-open");}
-  
+
 
 });
 

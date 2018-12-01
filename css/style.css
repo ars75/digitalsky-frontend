@@ -885,14 +885,16 @@ footer.site-footer {
   #help-me-apply select {
     margin-left: 5px;
     margin-right: 5px; }
-  #help-me-apply .other-parts {
+  #help-me-apply .other-parts, #help-me-apply .and-parts {
     display: none; }
-  #help-me-apply .under, #help-me-apply .over, #help-me-apply .pilot, #help-me-apply .operator, #help-me-apply .manufacturer, #help-me-apply .in-india, #help-me-apply .import {
+  #help-me-apply .under, #help-me-apply .over, #help-me-apply .pilot, #help-me-apply .operator, #help-me-apply .manufacturer, #help-me-apply .in-india, #help-me-apply .import, #help-me-apply .micro, #help-me-apply .above-micro {
     display: none; }
   #help-me-apply .button {
     display: none; }
   #help-me-apply .show {
     display: block; }
+  #help-me-apply .acquisition_type, #help-me-apply .pilot_type, #help-me-apply .manufacture_type {
+    display: none; }
 
 #press-releases {
   padding: 50px 0px; }
