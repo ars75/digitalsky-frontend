@@ -268,7 +268,8 @@ label {
   line-height: 29px;
   margin-bottom: 20px;
   margin-bottom: 40px;
-  line-height: 29px; }
+  line-height: 29px;
+  position: relative; }
   label span {
     color: #64729A;
     font-family: 'poppinsregular';
@@ -746,6 +747,8 @@ footer.site-footer {
       font-style: normal;
       font-size: 18px;
       margin-top: 12px; }
+    footer.site-footer .footer-logo .wrap img {
+      max-width: 300px; }
 
 #home-intro {
   height: auto;

@@ -99,7 +99,7 @@ select {box-shadow: none; border-radius: 6px; border: 1px solid #DEE2ED; border-
 }
 textarea {height: auto;}
 
-label {@include type-label-form(); margin-bottom: 40px; line-height: 29px;
+label {@include type-label-form(); margin-bottom: 40px; line-height: 29px; position: relative;
   span {@include type-regular(); color: #64729A; display: block; font-size: 15px; line-height: 26px; position: relative; margin-top: 10px;}
   [type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea {
     margin-top: 10px;
@@ -266,6 +266,7 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
   .footer-logo {background: $blue-main; padding: 40px 0px;text-align: center;
     .logo-wrap {width: 100px; margin: 0 auto;}
     h4 {color: #ffffff;font-family: 'poppinssemibold'; font-weight: normal; font-style: normal; font-size: 18px; margin-top: 12px;}
+    .wrap img {max-width: 300px;}
   }
 }
 // Home page styles
@@ -857,6 +858,7 @@ table tbody, table tfoot, table thead {background-color: #e6e8ef;}
     { width: 70%; float: right; max-width: 600px; margin-top: 0px; margin-bottom: 20px;}
     span {display: none;}
     &.checkbox span, &.radio span {display: block;}
+
   }
 
   label input + input[type=email], label input + input[type=number], label input + input[type=password], label input + input[type=text] {margin-top: 0px;}
