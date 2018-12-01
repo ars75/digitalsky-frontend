@@ -18,6 +18,9 @@ $('.drone_weight').on('change', function() {
     $('#help-me-apply .answer .manufacturer').hide();
     $('#help-me-apply .answer .in-india').hide();
     $('#help-me-apply .answer .import').hide();
+
+    $('#help-me-apply .other-parts').hide();
+
   }
   if(droneWeight == "over") {
     $('#help-me-apply .answer .over').show();
