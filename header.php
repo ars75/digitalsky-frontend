@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DigitalSky</title>
     <link rel="stylesheet" href="css/foundation.min.css">
-    <link rel="stylesheet" href="css/style.css?v=27">
+    <link rel="stylesheet" href="css/style.css?v=28">
   </head>
   <body>
 
@@ -24,7 +24,7 @@ A class "homepage" has to be added only on homepage, as the header has different
       </div>
     </a>
 
-    <div class="site-nav">
+    <!-- <div class="site-nav">
       <div class="wrap">
         <div class="open-wrap">
           <img src="img/hambargar.svg" alt="">
@@ -44,7 +44,7 @@ A class "homepage" has to be added only on homepage, as the header has different
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
 
 <!--
 Note:
