@@ -95,9 +95,11 @@ select {box-shadow: none; border-radius: 6px; border: 1px solid #DEE2ED; border-
   box-shadow: none; border-radius: 6px; border: 1px solid #DEE2ED; border-bottom: 2px solid #DEE2ED; padding: 12px 20px 13px 20px; height: 52px; @include type-regular(); font-size: 16px; line-height: 24px; letter-spacing: 0.72px; color: $blue-heading; margin-bottom: 0px;
   &:focus {box-shadow: none; border: 1px solid #64729A; border-bottom: 2px solid #64729A; background-color: #ffffff;}
   &.valid {box-shadow: none; border: 1px solid #00C75B; border-bottom: 2px solid #00C75B; background-color: #ffffff; box-shadow: 0px 6px 5px 0px #E1F5E5;}
-  &.error {box-shadow: none; border: 1px solid #D40000; border-bottom: 2px solid #D40000; background-color: #ffffff; box-shadow: 0px 6px 5px 0px #F5E1E1;}
+  &.error {box-shadow: none; border: 1px solid #D40000; border-bottom: 2px solid #D40000; background-color: #ffffff; box-shadow: 0px 6px 5px 0px #F5E1E1; margin-bottom: 40px;}
 }
 textarea {height: auto;}
+
+p.field-error-message {position: absolute; right: 0px; top: 95px; color: #d40000; font-size: 12px;}
 
 label {@include type-label-form(); margin-bottom: 40px; line-height: 29px; position: relative;
   span {@include type-regular(); color: #64729A; display: block; font-size: 15px; line-height: 26px; position: relative; margin-top: 10px;}
@@ -924,5 +926,7 @@ table tbody, table tfoot, table thead {background-color: #e6e8ef;}
   #all-applications-admin .admin-search-wrap {margin: 0px;}
   footer.site-footer .footer-nav ul li {text-align: left;}
   footer.site-footer .footer-nav {padding: 50px; display: block;}
+
+  p.field-error-message {top: 55px;}
 
 }
