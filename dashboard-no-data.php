@@ -56,8 +56,21 @@ include("header.php"); ?>
           <h3>Application Status</h3>
 
           <div class="application no-data">
-            <p>Once you’ve applied for a drone, you will see your application statuses here.</p>
-            <a href="#" class="button">Apply now</a>
+            <p>You may apply to import an RPAS, locally acquire an RPAS, or for receiving your UA Operator Permit.</p>
+            <a class="button" data-open="application-status-modal">Apply now</a>
+
+            <div class="reveal" id="application-status-modal" data-reveal>
+
+              <a href="#" class="button">Apply for Local Acquisition of RPAS</a>
+              <a href="#" class="button">Apply for Import Clearance of RPAS</a>
+              <a href="#" class="button">Apply for Unmanned Aerial Operator Permit</a>
+
+
+
+              <button class="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
           </div>
 
         </div>
@@ -66,8 +79,8 @@ include("header.php"); ?>
           <div class="my-drones">
           <h3>My Drones</h3>
           <div class="drone no-data">
-            <p>Once you’re drones ar registered, you will see your drones here.</p>
-            <a href="#" class="button">Apply now</a>
+            <p>Once you're registered your RPAS through your manufacturer, you will see it appear here automatically. Post that, you may apply on Digital Sky for receiving your UIN and permission to fly. Please contact your manufacturer for further details.</p>
+            <a class="button disabled">Apply now</a>
           </div>
           </div>
         </div>

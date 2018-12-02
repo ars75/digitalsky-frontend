@@ -743,6 +743,14 @@ table tbody, table tfoot, table thead {background-color: #e6e8ef;}
 #faq-glossory {margin-bottom: 80px;}
 #faq-glossory tr td:first-child {font-family: 'poppinssemibold'; font-weight: normal; font-style: normal; line-height: 14px;}
 
+
+.reveal {border-radius: 6px; padding: 80px 30px;
+  .close-button {font-size: 50px; right: 20px; top: 20px;}
+}
+
+#application-status-modal {padding-bottom: 50px;
+  .button {display: block; width: 100%; margin-bottom: 30px;}
+}
 // RESPONSIVE
 
 // Mobile
@@ -750,7 +758,7 @@ table tbody, table tfoot, table thead {background-color: #e6e8ef;}
 @media screen and (max-width: 39.9375em) {
   .button {width: 100%;}
 
-  .reveal {top: 5%; left: 5%; width: 90%; height: auto; height: auto; min-height: 50vh; border-radius: 6px; padding: 40px 30px;
+  .reveal {top: 5%; left: 5%; width: 90%; height: auto; height: auto; min-height: 50vh; border-radius: 6px; padding: 80px 30px;
     .close-button {font-size: 50px; right: 20px; top: 20px;}
   }
   .page-navigation .grid-container, .admin-header .grid-container {max-width: 100%; padding: 0px;}
