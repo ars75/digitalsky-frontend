@@ -1279,9 +1279,10 @@ footer.site-footer {
 .admin-header {
   margin-bottom: 20px; }
   .admin-header .menu {
-    margin-top: -5px; }
+    margin-top: -5px;
+    display: flex; }
     .admin-header .menu li {
-      width: 33.33333%; }
+      flex: auto; }
       .admin-header .menu li a {
         height: 110px;
         background-color: #E9ECF4;
@@ -1300,17 +1301,12 @@ footer.site-footer {
         font-size: 11px;
         line-height: normal;
         text-transform: uppercase;
-        border-radius: 0px 0px 8px 8px; }
+        border-radius: 0px 0px 8px 8px;
+        background-image: url("../img/pilot-all-blue.svg"); }
         .admin-header .menu li a:hover {
           background-color: #ffffff; }
         .admin-header .menu li a.active {
           background-color: #ffffff; }
-      .admin-header .menu li a.pilot {
-        background-image: url("../img/pilot-all-blue.svg"); }
-      .admin-header .menu li a.operator {
-        background-image: url("../img/operator-blue.svg"); }
-      .admin-header .menu li a.manufacturer {
-        background-image: url("../img/manufacturer-blue.svg"); }
       .admin-header .menu li:last-child a {
         border-right: 0px; }
 

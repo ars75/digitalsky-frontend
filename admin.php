@@ -8,9 +8,11 @@ include("header.php"); ?>
     <div class="grid-x grid-padding-x">
       <div class="large-12 cell">
         <ul class="menu">
-          <li><a href="#" class="pilot active"><span>Pilots</span></a></li>
-          <li><a href="#" class="operator"><span>Operators</span></a></li>
-          <li><a href="#" class="manufacturer"><span>Manufacturer</span></a></li>
+          <li><a href="#" class=""><span>Local Drone Acquisition</span></a></li>
+          <li><a href="#" class="active"><span>Import Drone</span></a></li>
+          <li><a href="#" class=""><span>UAOP</span></a></li>
+          <li><a href="#" class=""><span>UIN</span></a></li>
+          <li><a href="#" class=""><span>Permission</span></a></li>
         </ul>
       </div>
     </div>

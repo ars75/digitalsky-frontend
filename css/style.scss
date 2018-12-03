@@ -472,15 +472,15 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
 }
 
 .admin-header {margin-bottom: 20px;
-  .menu {margin-top: -5px;
-    li{width: 33.33333%;
-      a {height: 110px; background-color: #E9ECF4; border-right: 1px solid #ffffff; text-align: center; background-repeat: no-repeat; background-position: center 20px; padding-top: 80px; @include type-label-form(); font-size: 11px; line-height: normal; text-transform: uppercase; border-radius: 0px 0px 8px 8px;
+  .menu {margin-top: -5px;display: flex;
+    li{flex: auto;
+      a {height: 110px; background-color: #E9ECF4; border-right: 1px solid #ffffff; text-align: center; background-repeat: no-repeat; background-position: center 20px; padding-top: 80px; @include type-label-form(); font-size: 11px; line-height: normal; text-transform: uppercase; border-radius: 0px 0px 8px 8px; background-image: url("../img/pilot-all-blue.svg");
         &:hover {background-color: #ffffff;}
         &.active {background-color: #ffffff;}
       }
-      a.pilot {background-image: url("../img/pilot-all-blue.svg");}
-      a.operator {background-image: url("../img/operator-blue.svg");}
-      a.manufacturer {background-image: url("../img/manufacturer-blue.svg");}
+      // a.pilot {background-image: url("../img/pilot-all-blue.svg");}
+      // a.operator {background-image: url("../img/operator-blue.svg");}
+      // a.manufacturer {background-image: url("../img/manufacturer-blue.svg");}
       &:last-child a {border-right: 0px;}
     }
   }
