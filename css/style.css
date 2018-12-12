@@ -1668,7 +1668,9 @@ footer.site-footer {
     border-radius: 50%;
     border: 1px solid #DEE2ED;
     border: 2px solid #DEE2ED;
-    box-shadow: 0px 6px 5px 0px #F4F4F4; }
+    box-shadow: 0px 6px 5px 0px #F4F4F4;
+    z-index: 999;
+    cursor: pointer; }
 
 .desktop-site-navigation {
   display: none; }

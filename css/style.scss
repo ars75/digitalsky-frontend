@@ -627,7 +627,7 @@ footer.site-footer {background-color: $blue-heading; background-image: url("../i
 }
 
 .help-wrap {position: relative;
-  .help-icon {position: absolute; top: 0px; right: 0px; width: 40px; height: 40px; @include absolute-center(); border-radius: 50%; border: 1px solid #DEE2ED; border: 2px solid #DEE2ED; box-shadow: 0px 6px 5px 0px #F4F4F4;}
+  .help-icon {position: absolute; top: 0px; right: 0px; width: 40px; height: 40px; @include absolute-center(); border-radius: 50%; border: 1px solid #DEE2ED; border: 2px solid #DEE2ED; box-shadow: 0px 6px 5px 0px #F4F4F4; z-index: 999; cursor: pointer;}
 }
 .desktop-site-navigation {display: none;}
 
